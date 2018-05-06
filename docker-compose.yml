@@ -32,7 +32,6 @@ services:
           TZ: "America/Sao_Paulo" # Timezone SP/Brazil
           UMASK_SET: "022"
           WEBUI_PORT: "8088"
-
     # https://hub.docker.com/r/emby/embyserver/
     emby-server:
         image: "emby/embyserver:latest"
@@ -43,8 +42,8 @@ services:
           - "8096:8096" # To expose the HTTP port
         volumes:
           - emby-config:/config # This is mandatory
-          - emby-share1:/mnt/share1 \ # To mount a first share
-          # - emby-share2:/mnt/share2 \ # To mount a second share
+          - emby-share1:/mnt/share1 # To mount a first share
+          # - emby-share2:/mnt/share2 # To mount a second share
         environment:
           UID: "1000" # The UID to run emby as (default: 2)
           GID: "100" # The GID to run emby as (default 2)
@@ -65,13 +64,13 @@ services:
           PGID: "1001" # The GID to run emby as (default 2)
           TZ: "America/Sao_Paulo" # Timezone SP/Brazil
 
+          # TODO: Create for use "radarr" application too.  
+
 networks:
   backend:
 
-# ## Para criar estes named-volumes (SO LINUX), utilizar:
-# ### docker volume create --opt device=/FOLDER/MSSQL mssql-data
-# ### docker volume create --opt device=D:/BANCOSDADOS/MARIADB mariadb-data
-# ### docker volume create --opt device=D:/BANCOSDADOS/MINIO minio-data
+# ## For create this named-volumes (S.O. LINUX), use:
+# ### docker volume create --opt device=/FOLDER/SHARE1 emby-share1
 volumes:
   emby-config:
   emby-share1:
