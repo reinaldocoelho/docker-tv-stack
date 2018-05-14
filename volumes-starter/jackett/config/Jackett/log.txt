@@ -1,0 +1,1460 @@
+2018-05-13 22:13:26.9952 Info App config/log directory: /config/Jackett 
+2018-05-13 22:13:27.1804 Info Starting Jackett 0.8.953.0 
+2018-05-13 22:13:27.1882 Info Environment version: 4.0.30319.42000 (/usr/lib/mono/4.5) 
+2018-05-13 22:13:27.1989 Info OS version: Unix 4.9.87.0 (64bit OS) (64bit process) 
+2018-05-13 22:13:27.2073 Info ThreadPool MaxThreads: 200 workerThreads, 200 completionPortThreads 
+2018-05-13 22:13:27.2186 Info issue: Ubuntu 16.04.4 LTS \n \l 
+2018-05-13 22:13:27.2356 Info mono version: 5.10.1.47 (tarball Tue Apr 17 15:12:35 UTC 2018) 
+2018-05-13 22:13:27.3703 Info TrustedRootCertificates count: 148 
+2018-05-13 22:13:27.3786 Info Using HTTP Client: HttpWebClient 
+2018-05-13 22:13:27.6212 Info Loading Cardigann definitions from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2018-05-13 22:13:27.6478 Info Loading Cardigann definition /app/Jackett/Definitions/1337x.yml 
+2018-05-13 22:13:27.7713 Info Loading Cardigann definition /app/Jackett/Definitions/2fast4you.yml 
+2018-05-13 22:13:27.8458 Info Loading Cardigann definition /app/Jackett/Definitions/3dtorrents.yml 
+2018-05-13 22:13:27.8774 Info Loading Cardigann definition /app/Jackett/Definitions/Bittorrentfiles.yml 
+2018-05-13 22:13:27.9179 Info Loading Cardigann definition /app/Jackett/Definitions/acidlounge.yml 
+2018-05-13 22:13:27.9541 Info Loading Cardigann definition /app/Jackett/Definitions/anidex.yml 
+2018-05-13 22:13:27.9854 Info Loading Cardigann definition /app/Jackett/Definitions/anirena.yml 
+2018-05-13 22:13:28.0709 Info Loading Cardigann definition /app/Jackett/Definitions/aox.yml 
+2018-05-13 22:13:28.0895 Info Loading Cardigann definition /app/Jackett/Definitions/arabafenice.yml 
+2018-05-13 22:13:28.1208 Info Loading Cardigann definition /app/Jackett/Definitions/archetorrent.yml 
+2018-05-13 22:13:28.1479 Info Loading Cardigann definition /app/Jackett/Definitions/asiandvdclub.yml 
+2018-05-13 22:13:28.1855 Info Loading Cardigann definition /app/Jackett/Definitions/ast4u.yml 
+2018-05-13 22:13:28.2090 Info Loading Cardigann definition /app/Jackett/Definitions/audiobooktorrents.yml 
+2018-05-13 22:13:28.2644 Info Loading Cardigann definition /app/Jackett/Definitions/awesomehd.yml 
+2018-05-13 22:13:28.2832 Info Loading Cardigann definition /app/Jackett/Definitions/b2s-share.yml 
+2018-05-13 22:13:28.3165 Info Loading Cardigann definition /app/Jackett/Definitions/backups.yml 
+2018-05-13 22:13:28.3860 Info Loading Cardigann definition /app/Jackett/Definitions/bigtorrent.yml 
+2018-05-13 22:13:28.4366 Info Loading Cardigann definition /app/Jackett/Definitions/bithorlo.yml 
+2018-05-13 22:13:28.4636 Info Loading Cardigann definition /app/Jackett/Definitions/bithumen.yml 
+2018-05-13 22:13:28.5048 Info Loading Cardigann definition /app/Jackett/Definitions/bitme.yml 
+2018-05-13 22:13:28.5513 Info Loading Cardigann definition /app/Jackett/Definitions/bitspyder.yml 
+2018-05-13 22:13:28.5774 Info Loading Cardigann definition /app/Jackett/Definitions/bluebird.yml 
+2018-05-13 22:13:28.6081 Info Loading Cardigann definition /app/Jackett/Definitions/blutopia.yml 
+2018-05-13 22:13:28.6528 Info Loading Cardigann definition /app/Jackett/Definitions/bt-scene.yml 
+2018-05-13 22:13:28.7048 Info Loading Cardigann definition /app/Jackett/Definitions/btbit.yml 
+2018-05-13 22:13:28.7294 Info Loading Cardigann definition /app/Jackett/Definitions/btdb.yml 
+2018-05-13 22:13:28.7538 Info Loading Cardigann definition /app/Jackett/Definitions/btnext.yml 
+2018-05-13 22:13:28.7967 Info Loading Cardigann definition /app/Jackett/Definitions/btworld.yml 
+2018-05-13 22:13:28.8242 Info Loading Cardigann definition /app/Jackett/Definitions/carpathians.yml 
+2018-05-13 22:13:28.8671 Info Loading Cardigann definition /app/Jackett/Definitions/ccfbits.yml 
+2018-05-13 22:13:28.9084 Info Loading Cardigann definition /app/Jackett/Definitions/chdbits.yml 
+2018-05-13 22:13:28.9550 Info Loading Cardigann definition /app/Jackett/Definitions/cinemageddon.yml 
+2018-05-13 22:13:28.9890 Info Loading Cardigann definition /app/Jackett/Definitions/cinematik.yml 
+2018-05-13 22:13:29.0599 Info Loading Cardigann definition /app/Jackett/Definitions/classix.yml 
+2018-05-13 22:13:29.0907 Info Loading Cardigann definition /app/Jackett/Definitions/cpabien.yml 
+2018-05-13 22:13:29.1359 Info Loading Cardigann definition /app/Jackett/Definitions/cztorrent.yml 
+2018-05-13 22:13:29.1661 Info Loading Cardigann definition /app/Jackett/Definitions/datascene.yml 
+2018-05-13 22:13:29.1957 Info Loading Cardigann definition /app/Jackett/Definitions/deildu.yml 
+2018-05-13 22:13:29.2224 Info Loading Cardigann definition /app/Jackett/Definitions/diablotorrent.yml 
+2018-05-13 22:13:29.2588 Info Loading Cardigann definition /app/Jackett/Definitions/downloadville.yml 
+2018-05-13 22:13:29.2866 Info Loading Cardigann definition /app/Jackett/Definitions/dragonworldreloaded.yml 
+2018-05-13 22:13:29.3347 Info Loading Cardigann definition /app/Jackett/Definitions/dreamteam.yml 
+2018-05-13 22:13:29.3825 Info Loading Cardigann definition /app/Jackett/Definitions/elitehd.yml 
+2018-05-13 22:13:29.4096 Info Loading Cardigann definition /app/Jackett/Definitions/elittracker.yml 
+2018-05-13 22:13:29.4746 Info Loading Cardigann definition /app/Jackett/Definitions/empornium.yml 
+2018-05-13 22:13:29.5051 Info Loading Cardigann definition /app/Jackett/Definitions/eotforum.yml 
+2018-05-13 22:13:29.5353 Info Loading Cardigann definition /app/Jackett/Definitions/estone.yml 
+2018-05-13 22:13:29.5564 Info Loading Cardigann definition /app/Jackett/Definitions/ethor.yml 
+2018-05-13 22:13:29.5820 Info Loading Cardigann definition /app/Jackett/Definitions/ettv.yml 
+2018-05-13 22:13:29.6545 Info Loading Cardigann definition /app/Jackett/Definitions/extratorrent-ag.yml 
+2018-05-13 22:13:29.8632 Info Loading Cardigann definition /app/Jackett/Definitions/eztv.yml 
+2018-05-13 22:13:29.8824 Info Loading Cardigann definition /app/Jackett/Definitions/fanoin.yml 
+2018-05-13 22:13:29.9054 Info Loading Cardigann definition /app/Jackett/Definitions/femdomcult.yml 
+2018-05-13 22:13:29.9450 Info Loading Cardigann definition /app/Jackett/Definitions/freedomhd.yml 
+2018-05-13 22:13:29.9891 Info Loading Cardigann definition /app/Jackett/Definitions/frozenlayer.yml 
+2018-05-13 22:13:30.0137 Info Loading Cardigann definition /app/Jackett/Definitions/fullmixmusic.yml 
+2018-05-13 22:13:30.0278 Info Loading Cardigann definition /app/Jackett/Definitions/funkytorrents.yml 
+2018-05-13 22:13:30.0539 Info Loading Cardigann definition /app/Jackett/Definitions/gay-torrents.yml 
+2018-05-13 22:13:30.0901 Info Loading Cardigann definition /app/Jackett/Definitions/gaytorrentru.yml 
+2018-05-13 22:13:30.1726 Info Loading Cardigann definition /app/Jackett/Definitions/gfxnews.yml 
+2018-05-13 22:13:30.2196 Info Loading Cardigann definition /app/Jackett/Definitions/gfxpeers.yml 
+2018-05-13 22:13:30.2352 Info Loading Cardigann definition /app/Jackett/Definitions/gigatorrents.yml 
+2018-05-13 22:13:30.2551 Info Loading Cardigann definition /app/Jackett/Definitions/gktorrent.yml 
+2018-05-13 22:13:30.2819 Info Loading Cardigann definition /app/Jackett/Definitions/gods.yml 
+2018-05-13 22:13:30.3133 Info Loading Cardigann definition /app/Jackett/Definitions/greekteam.yml 
+2018-05-13 22:13:30.3363 Info Loading Cardigann definition /app/Jackett/Definitions/hachede.yml 
+2018-05-13 22:13:30.3739 Info Loading Cardigann definition /app/Jackett/Definitions/hdbits.yml 
+2018-05-13 22:13:30.4216 Info Loading Cardigann definition /app/Jackett/Definitions/hdbitscom.yml 
+2018-05-13 22:13:30.4571 Info Loading Cardigann definition /app/Jackett/Definitions/hdchina.yml 
+2018-05-13 22:13:30.4941 Info Loading Cardigann definition /app/Jackett/Definitions/hdcity.yml 
+2018-05-13 22:13:30.5556 Info Loading Cardigann definition /app/Jackett/Definitions/hdhome.yml 
+2018-05-13 22:13:30.5859 Info Loading Cardigann definition /app/Jackett/Definitions/hdme.yml 
+2018-05-13 22:13:30.6160 Info Loading Cardigann definition /app/Jackett/Definitions/hdsky.yml 
+2018-05-13 22:13:30.6400 Info Loading Cardigann definition /app/Jackett/Definitions/hdtorrentsit.yml 
+2018-05-13 22:13:30.6847 Info Loading Cardigann definition /app/Jackett/Definitions/hon3yhd.yml 
+2018-05-13 22:13:30.7166 Info Loading Cardigann definition /app/Jackett/Definitions/horriblesubs.yml 
+2018-05-13 22:13:30.7430 Info Loading Cardigann definition /app/Jackett/Definitions/hyperay.yml 
+2018-05-13 22:13:30.7634 Info Loading Cardigann definition /app/Jackett/Definitions/icetorrent.yml 
+2018-05-13 22:13:30.7995 Info Loading Cardigann definition /app/Jackett/Definitions/idope.yml 
+2018-05-13 22:13:30.8229 Info Loading Cardigann definition /app/Jackett/Definitions/ilcorsaronero.yml 
+2018-05-13 22:13:30.8475 Info Loading Cardigann definition /app/Jackett/Definitions/iloveclassics.yml 
+2018-05-13 22:13:30.8830 Info Loading Cardigann definition /app/Jackett/Definitions/inperil.yml 
+2018-05-13 22:13:30.9091 Info Loading Cardigann definition /app/Jackett/Definitions/insanetracker.yml 
+2018-05-13 22:13:30.9438 Info Loading Cardigann definition /app/Jackett/Definitions/isohunt2.yml 
+2018-05-13 22:13:30.9699 Info Loading Cardigann definition /app/Jackett/Definitions/jpopsuki.yml 
+2018-05-13 22:13:30.9905 Info Loading Cardigann definition /app/Jackett/Definitions/kapaki.yml 
+2018-05-13 22:13:31.0422 Info Loading Cardigann definition /app/Jackett/Definitions/karagarga.yml 
+2018-05-13 22:13:31.0598 Info Loading Cardigann definition /app/Jackett/Definitions/kickasstorrent-kathow.yml 
+2018-05-13 22:13:31.1128 Info Loading Cardigann definition /app/Jackett/Definitions/kickasstorrent.yml 
+2018-05-13 22:13:31.1590 Info Loading Cardigann definition /app/Jackett/Definitions/kinozal.yml 
+2018-05-13 22:13:31.1957 Info Loading Cardigann definition /app/Jackett/Definitions/limetorrents.yml 
+2018-05-13 22:13:31.2199 Info Loading Cardigann definition /app/Jackett/Definitions/linkomanija.yml 
+2018-05-13 22:13:31.2418 Info Loading Cardigann definition /app/Jackett/Definitions/losslessclub.yml 
+2018-05-13 22:13:31.2610 Info Loading Cardigann definition /app/Jackett/Definitions/magico.yml 
+2018-05-13 22:13:31.3098 Info Loading Cardigann definition /app/Jackett/Definitions/magnetdl.yml 
+2018-05-13 22:13:31.3399 Info Loading Cardigann definition /app/Jackett/Definitions/majomparade.yml 
+2018-05-13 22:13:31.3806 Info Loading Cardigann definition /app/Jackett/Definitions/manicomioshare.yml 
+2018-05-13 22:13:31.4734 Info Loading Cardigann definition /app/Jackett/Definitions/megabliz.yml 
+2018-05-13 22:13:31.5080 Info Loading Cardigann definition /app/Jackett/Definitions/metaltracker.yml 
+2018-05-13 22:13:31.5439 Info Loading Cardigann definition /app/Jackett/Definitions/mononokebt.yml 
+2018-05-13 22:13:31.5852 Info Loading Cardigann definition /app/Jackett/Definitions/mteamtp.yml 
+2018-05-13 22:13:31.6165 Info Loading Cardigann definition /app/Jackett/Definitions/mvgroupforum.yml 
+2018-05-13 22:13:31.6455 Info Loading Cardigann definition /app/Jackett/Definitions/mvgroupmain.yml 
+2018-05-13 22:13:31.6773 Info Loading Cardigann definition /app/Jackett/Definitions/myspleen.yml 
+2018-05-13 22:13:31.7077 Info Loading Cardigann definition /app/Jackett/Definitions/nethd.yml 
+2018-05-13 22:13:31.7364 Info Loading Cardigann definition /app/Jackett/Definitions/newretro.yml 
+2018-05-13 22:13:31.7701 Info Loading Cardigann definition /app/Jackett/Definitions/newstudio.yml 
+2018-05-13 22:13:31.7960 Info Loading Cardigann definition /app/Jackett/Definitions/nexttorrent.yml 
+2018-05-13 22:13:31.8239 Info Loading Cardigann definition /app/Jackett/Definitions/nnm-club.yml 
+2018-05-13 22:13:31.9495 Info Loading Cardigann definition /app/Jackett/Definitions/nyaa-pantsu.yml 
+2018-05-13 22:13:31.9652 Info Loading Cardigann definition /app/Jackett/Definitions/nyaasi.yml 
+2018-05-13 22:13:31.9846 Info Loading Cardigann definition /app/Jackett/Definitions/nyoo.yml 
+2018-05-13 22:13:32.0004 Info Loading Cardigann definition /app/Jackett/Definitions/ourbits.yml 
+2018-05-13 22:13:32.0260 Info Loading Cardigann definition /app/Jackett/Definitions/passionetorrent.yml 
+2018-05-13 22:13:32.0450 Info Loading Cardigann definition /app/Jackett/Definitions/polishsource.yml 
+2018-05-13 22:13:32.0901 Info Loading Cardigann definition /app/Jackett/Definitions/ptfiles.yml 
+2018-05-13 22:13:32.1086 Info Loading Cardigann definition /app/Jackett/Definitions/puntotorrent.yml 
+2018-05-13 22:13:32.1434 Info Loading Cardigann definition /app/Jackett/Definitions/racing4everyone.yml 
+2018-05-13 22:13:32.1722 Info Loading Cardigann definition /app/Jackett/Definitions/rodvd.yml 
+2018-05-13 22:13:32.2005 Info Loading Cardigann definition /app/Jackett/Definitions/rutor.yml 
+2018-05-13 22:13:32.2169 Info Loading Cardigann definition /app/Jackett/Definitions/scenefz.yml 
+2018-05-13 22:13:32.2607 Info Loading Cardigann definition /app/Jackett/Definitions/scenereactor.yml 
+2018-05-13 22:13:32.2897 Info Loading Cardigann definition /app/Jackett/Definitions/sdbits.yml 
+2018-05-13 22:13:32.3123 Info Loading Cardigann definition /app/Jackett/Definitions/shareisland.yml 
+2018-05-13 22:13:32.3434 Info Loading Cardigann definition /app/Jackett/Definitions/sharespacedb.yml 
+2018-05-13 22:13:32.4057 Info Loading Cardigann definition /app/Jackett/Definitions/shellife.yml 
+2018-05-13 22:13:32.4210 Info Loading Cardigann definition /app/Jackett/Definitions/sktorrent.yml 
+2018-05-13 22:13:32.4419 Info Loading Cardigann definition /app/Jackett/Definitions/speed-share.yml 
+2018-05-13 22:13:32.5010 Info Loading Cardigann definition /app/Jackett/Definitions/speedtorrentreloaded.yml 
+2018-05-13 22:13:32.5264 Info Loading Cardigann definition /app/Jackett/Definitions/sporthd.yml 
+2018-05-13 22:13:32.5494 Info Loading Cardigann definition /app/Jackett/Definitions/sportscult.yml 
+2018-05-13 22:13:32.5697 Info Loading Cardigann definition /app/Jackett/Definitions/sukebei-pantsu.yml 
+2018-05-13 22:13:32.5922 Info Loading Cardigann definition /app/Jackett/Definitions/sukebeinyaasi.yml 
+2018-05-13 22:13:32.6208 Info Loading Cardigann definition /app/Jackett/Definitions/tasmanit.yml 
+2018-05-13 22:13:32.6509 Info Loading Cardigann definition /app/Jackett/Definitions/tbplus.yml 
+2018-05-13 22:13:32.6778 Info Loading Cardigann definition /app/Jackett/Definitions/tehconnection.yml 
+2018-05-13 22:13:32.6999 Info Loading Cardigann definition /app/Jackett/Definitions/tenyardtracker.yml 
+2018-05-13 22:13:32.7107 Info Loading Cardigann definition /app/Jackett/Definitions/theempire.yml 
+2018-05-13 22:13:32.7314 Info Loading Cardigann definition /app/Jackett/Definitions/thegeeks.yml 
+2018-05-13 22:13:32.7716 Info Loading Cardigann definition /app/Jackett/Definitions/thehorrorcharnel.yml 
+2018-05-13 22:13:32.7880 Info Loading Cardigann definition /app/Jackett/Definitions/theoccult.yml 
+2018-05-13 22:13:32.8093 Info Loading Cardigann definition /app/Jackett/Definitions/thepiratebay.yml 
+2018-05-13 22:13:32.8289 Info Loading Cardigann definition /app/Jackett/Definitions/theplace.yml 
+2018-05-13 22:13:32.8628 Info Loading Cardigann definition /app/Jackett/Definitions/theshinning.yml 
+2018-05-13 22:13:32.8911 Info Loading Cardigann definition /app/Jackett/Definitions/theshow.yml 
+2018-05-13 22:13:32.9141 Info Loading Cardigann definition /app/Jackett/Definitions/thetorrents.yml 
+2018-05-13 22:13:32.9325 Info Loading Cardigann definition /app/Jackett/Definitions/thevault.yml 
+2018-05-13 22:13:32.9673 Info Loading Cardigann definition /app/Jackett/Definitions/tntvillage.yml 
+2018-05-13 22:13:32.9955 Info Loading Cardigann definition /app/Jackett/Definitions/tokyotosho.yml 
+2018-05-13 22:13:33.0237 Info Loading Cardigann definition /app/Jackett/Definitions/torlock.yml 
+2018-05-13 22:13:33.0461 Info Loading Cardigann definition /app/Jackett/Definitions/torrent9.yml 
+2018-05-13 22:13:33.0656 Info Loading Cardigann definition /app/Jackett/Definitions/torrentbd.yml 
+2018-05-13 22:13:33.1046 Info Loading Cardigann definition /app/Jackett/Definitions/torrentccf.yml 
+2018-05-13 22:13:33.1607 Info Loading Cardigann definition /app/Jackett/Definitions/torrentdownloads.yml 
+2018-05-13 22:13:33.1770 Info Loading Cardigann definition /app/Jackett/Definitions/torrenthr.yml 
+2018-05-13 22:13:33.1927 Info Loading Cardigann definition /app/Jackett/Definitions/torrenting.yml 
+2018-05-13 22:13:33.2138 Info Loading Cardigann definition /app/Jackett/Definitions/torrentkim.yml 
+2018-05-13 22:13:33.2371 Info Loading Cardigann definition /app/Jackett/Definitions/torrentland.yml 
+2018-05-13 22:13:33.2573 Info Loading Cardigann definition /app/Jackett/Definitions/torrentlt.yml 
+2018-05-13 22:13:33.2900 Info Loading Cardigann definition /app/Jackett/Definitions/torrentsectorcrew.yml 
+2018-05-13 22:13:33.3082 Info Loading Cardigann definition /app/Jackett/Definitions/torrentseeds.yml 
+2018-05-13 22:13:33.3266 Info Loading Cardigann definition /app/Jackett/Definitions/torrentsmd.yml 
+2018-05-13 22:13:33.3430 Info Loading Cardigann definition /app/Jackett/Definitions/torrentwtf.yml 
+2018-05-13 22:13:33.3675 Info Loading Cardigann definition /app/Jackett/Definitions/torrentz2.yml 
+2018-05-13 22:13:33.3945 Info Loading Cardigann definition /app/Jackett/Definitions/torviet.yml 
+2018-05-13 22:13:33.4232 Info Loading Cardigann definition /app/Jackett/Definitions/totheglory.yml 
+2018-05-13 22:13:33.4472 Info Loading Cardigann definition /app/Jackett/Definitions/trancetraffic.yml 
+2018-05-13 22:13:33.4608 Info Loading Cardigann definition /app/Jackett/Definitions/trezzor.yml 
+2018-05-13 22:13:33.4891 Info Loading Cardigann definition /app/Jackett/Definitions/uhdbits.yml 
+2018-05-13 22:13:33.5109 Info Loading Cardigann definition /app/Jackett/Definitions/ultimategamerclub.yml 
+2018-05-13 22:13:33.5400 Info Loading Cardigann definition /app/Jackett/Definitions/unionfansub.yml 
+2018-05-13 22:13:33.5608 Info Loading Cardigann definition /app/Jackett/Definitions/waffles.yml 
+2018-05-13 22:13:33.5791 Info Loading Cardigann definition /app/Jackett/Definitions/worldofp2p.yml 
+2018-05-13 22:13:33.6117 Info Loading Cardigann definition /app/Jackett/Definitions/worldwidetorrents.yml 
+2018-05-13 22:13:33.6738 Info Loading Cardigann definition /app/Jackett/Definitions/xbytes2.yml 
+2018-05-13 22:13:33.6876 Info Loading Cardigann definition /app/Jackett/Definitions/xtremezone.yml 
+2018-05-13 22:13:33.7036 Info Loading Cardigann definition /app/Jackett/Definitions/yggtorrent.yml 
+2018-05-13 22:13:33.7378 Info Loading Cardigann definition /app/Jackett/Definitions/yourexotic.yml 
+2018-05-13 22:13:33.7564 Info Loading Cardigann definition /app/Jackett/Definitions/zamundanet.yml 
+2018-05-13 22:13:33.7760 Info Loading Cardigann definition /app/Jackett/Definitions/zelkaorg.yml 
+2018-05-13 22:13:33.7896 Info Loading Cardigann definition /app/Jackett/Definitions/zooqle.yml 
+2018-05-13 22:13:33.8137 Info Loading Cardigann definition /app/Jackett/Definitions/ztracker.yml 
+2018-05-13 22:13:33.8577 Info Adding aggregate indexer 
+2018-05-13 22:13:33.8861 Info Starting web server at http://*:9117/ 
+2018-05-13 22:26:49.4287 Info redirecting to /UI/Dashboard 
+2018-05-13 22:36:18.0827 Info App config/log directory: /config/Jackett 
+2018-05-13 22:36:18.2164 Info Starting Jackett 0.8.953.0 
+2018-05-13 22:36:18.2236 Info Environment version: 4.0.30319.42000 (/usr/lib/mono/4.5) 
+2018-05-13 22:36:18.2304 Info OS version: Unix 4.9.87.0 (64bit OS) (64bit process) 
+2018-05-13 22:36:18.2371 Info ThreadPool MaxThreads: 200 workerThreads, 200 completionPortThreads 
+2018-05-13 22:36:18.2451 Info issue: Ubuntu 16.04.4 LTS \n \l 
+2018-05-13 22:36:18.2533 Info mono version: 5.10.1.47 (tarball Tue Apr 17 15:12:35 UTC 2018) 
+2018-05-13 22:36:18.3367 Info TrustedRootCertificates count: 148 
+2018-05-13 22:36:18.3470 Info Using HTTP Client: HttpWebClient 
+2018-05-13 22:36:18.5371 Info Loading Cardigann definitions from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2018-05-13 22:36:18.5618 Info Loading Cardigann definition /app/Jackett/Definitions/1337x.yml 
+2018-05-13 22:36:18.6483 Info Loading Cardigann definition /app/Jackett/Definitions/2fast4you.yml 
+2018-05-13 22:36:18.6672 Info Loading Cardigann definition /app/Jackett/Definitions/3dtorrents.yml 
+2018-05-13 22:36:18.6835 Info Loading Cardigann definition /app/Jackett/Definitions/Bittorrentfiles.yml 
+2018-05-13 22:36:18.7021 Info Loading Cardigann definition /app/Jackett/Definitions/acidlounge.yml 
+2018-05-13 22:36:18.7211 Info Loading Cardigann definition /app/Jackett/Definitions/anidex.yml 
+2018-05-13 22:36:18.7347 Info Loading Cardigann definition /app/Jackett/Definitions/anirena.yml 
+2018-05-13 22:36:18.7555 Info Loading Cardigann definition /app/Jackett/Definitions/aox.yml 
+2018-05-13 22:36:18.7827 Info Loading Cardigann definition /app/Jackett/Definitions/arabafenice.yml 
+2018-05-13 22:36:18.8021 Info Loading Cardigann definition /app/Jackett/Definitions/archetorrent.yml 
+2018-05-13 22:36:18.8202 Info Loading Cardigann definition /app/Jackett/Definitions/asiandvdclub.yml 
+2018-05-13 22:36:18.8351 Info Loading Cardigann definition /app/Jackett/Definitions/ast4u.yml 
+2018-05-13 22:36:18.8541 Info Loading Cardigann definition /app/Jackett/Definitions/audiobooktorrents.yml 
+2018-05-13 22:36:18.8698 Info Loading Cardigann definition /app/Jackett/Definitions/awesomehd.yml 
+2018-05-13 22:36:18.8826 Info Loading Cardigann definition /app/Jackett/Definitions/b2s-share.yml 
+2018-05-13 22:36:18.9181 Info Loading Cardigann definition /app/Jackett/Definitions/backups.yml 
+2018-05-13 22:36:18.9310 Info Loading Cardigann definition /app/Jackett/Definitions/bigtorrent.yml 
+2018-05-13 22:36:18.9401 Info Loading Cardigann definition /app/Jackett/Definitions/bithorlo.yml 
+2018-05-13 22:36:18.9535 Info Loading Cardigann definition /app/Jackett/Definitions/bithumen.yml 
+2018-05-13 22:36:18.9662 Info Loading Cardigann definition /app/Jackett/Definitions/bitme.yml 
+2018-05-13 22:36:18.9826 Info Loading Cardigann definition /app/Jackett/Definitions/bitspyder.yml 
+2018-05-13 22:36:18.9997 Info Loading Cardigann definition /app/Jackett/Definitions/bluebird.yml 
+2018-05-13 22:36:19.0121 Info Loading Cardigann definition /app/Jackett/Definitions/blutopia.yml 
+2018-05-13 22:36:19.0263 Info Loading Cardigann definition /app/Jackett/Definitions/bt-scene.yml 
+2018-05-13 22:36:19.0401 Info Loading Cardigann definition /app/Jackett/Definitions/btbit.yml 
+2018-05-13 22:36:19.0560 Info Loading Cardigann definition /app/Jackett/Definitions/btdb.yml 
+2018-05-13 22:36:19.0703 Info Loading Cardigann definition /app/Jackett/Definitions/btnext.yml 
+2018-05-13 22:36:19.0904 Info Loading Cardigann definition /app/Jackett/Definitions/btworld.yml 
+2018-05-13 22:36:19.1031 Info Loading Cardigann definition /app/Jackett/Definitions/carpathians.yml 
+2018-05-13 22:36:19.1176 Info Loading Cardigann definition /app/Jackett/Definitions/ccfbits.yml 
+2018-05-13 22:36:19.1300 Info Loading Cardigann definition /app/Jackett/Definitions/chdbits.yml 
+2018-05-13 22:36:19.1432 Info Loading Cardigann definition /app/Jackett/Definitions/cinemageddon.yml 
+2018-05-13 22:36:19.1594 Info Loading Cardigann definition /app/Jackett/Definitions/cinematik.yml 
+2018-05-13 22:36:19.1738 Info Loading Cardigann definition /app/Jackett/Definitions/classix.yml 
+2018-05-13 22:36:19.1853 Info Loading Cardigann definition /app/Jackett/Definitions/cpabien.yml 
+2018-05-13 22:36:19.2002 Info Loading Cardigann definition /app/Jackett/Definitions/cztorrent.yml 
+2018-05-13 22:36:19.2198 Info Loading Cardigann definition /app/Jackett/Definitions/datascene.yml 
+2018-05-13 22:36:19.2345 Info Loading Cardigann definition /app/Jackett/Definitions/deildu.yml 
+2018-05-13 22:36:19.2459 Info Loading Cardigann definition /app/Jackett/Definitions/diablotorrent.yml 
+2018-05-13 22:36:19.2651 Info Loading Cardigann definition /app/Jackett/Definitions/downloadville.yml 
+2018-05-13 22:36:19.2868 Info Loading Cardigann definition /app/Jackett/Definitions/dragonworldreloaded.yml 
+2018-05-13 22:36:19.3154 Info Loading Cardigann definition /app/Jackett/Definitions/dreamteam.yml 
+2018-05-13 22:36:19.3410 Info Loading Cardigann definition /app/Jackett/Definitions/elitehd.yml 
+2018-05-13 22:36:19.3516 Info Loading Cardigann definition /app/Jackett/Definitions/elittracker.yml 
+2018-05-13 22:36:19.3672 Info Loading Cardigann definition /app/Jackett/Definitions/empornium.yml 
+2018-05-13 22:36:19.3859 Info Loading Cardigann definition /app/Jackett/Definitions/eotforum.yml 
+2018-05-13 22:36:19.4069 Info Loading Cardigann definition /app/Jackett/Definitions/estone.yml 
+2018-05-13 22:36:19.4313 Info Loading Cardigann definition /app/Jackett/Definitions/ethor.yml 
+2018-05-13 22:36:19.4476 Info Loading Cardigann definition /app/Jackett/Definitions/ettv.yml 
+2018-05-13 22:36:19.4590 Info Loading Cardigann definition /app/Jackett/Definitions/extratorrent-ag.yml 
+2018-05-13 22:36:19.5543 Info Loading Cardigann definition /app/Jackett/Definitions/eztv.yml 
+2018-05-13 22:36:19.5618 Info Loading Cardigann definition /app/Jackett/Definitions/fanoin.yml 
+2018-05-13 22:36:19.5752 Info Loading Cardigann definition /app/Jackett/Definitions/femdomcult.yml 
+2018-05-13 22:36:19.5861 Info Loading Cardigann definition /app/Jackett/Definitions/freedomhd.yml 
+2018-05-13 22:36:19.6058 Info Loading Cardigann definition /app/Jackett/Definitions/frozenlayer.yml 
+2018-05-13 22:36:19.6210 Info Loading Cardigann definition /app/Jackett/Definitions/fullmixmusic.yml 
+2018-05-13 22:36:19.6351 Info Loading Cardigann definition /app/Jackett/Definitions/funkytorrents.yml 
+2018-05-13 22:36:19.6521 Info Loading Cardigann definition /app/Jackett/Definitions/gay-torrents.yml 
+2018-05-13 22:36:19.6750 Info Loading Cardigann definition /app/Jackett/Definitions/gaytorrentru.yml 
+2018-05-13 22:36:19.6889 Info Loading Cardigann definition /app/Jackett/Definitions/gfxnews.yml 
+2018-05-13 22:36:19.7247 Info Loading Cardigann definition /app/Jackett/Definitions/gfxpeers.yml 
+2018-05-13 22:36:19.7337 Info Loading Cardigann definition /app/Jackett/Definitions/gigatorrents.yml 
+2018-05-13 22:36:19.7453 Info Loading Cardigann definition /app/Jackett/Definitions/gktorrent.yml 
+2018-05-13 22:36:19.7575 Info Loading Cardigann definition /app/Jackett/Definitions/gods.yml 
+2018-05-13 22:36:19.7772 Info Loading Cardigann definition /app/Jackett/Definitions/greekteam.yml 
+2018-05-13 22:36:19.8043 Info Loading Cardigann definition /app/Jackett/Definitions/hachede.yml 
+2018-05-13 22:36:19.8218 Info Loading Cardigann definition /app/Jackett/Definitions/hdbits.yml 
+2018-05-13 22:36:19.8378 Info Loading Cardigann definition /app/Jackett/Definitions/hdbitscom.yml 
+2018-05-13 22:36:19.8541 Info Loading Cardigann definition /app/Jackett/Definitions/hdchina.yml 
+2018-05-13 22:36:19.8705 Info Loading Cardigann definition /app/Jackett/Definitions/hdcity.yml 
+2018-05-13 22:36:19.8932 Info Loading Cardigann definition /app/Jackett/Definitions/hdhome.yml 
+2018-05-13 22:36:19.9114 Info Loading Cardigann definition /app/Jackett/Definitions/hdme.yml 
+2018-05-13 22:36:19.9252 Info Loading Cardigann definition /app/Jackett/Definitions/hdsky.yml 
+2018-05-13 22:36:19.9569 Info Loading Cardigann definition /app/Jackett/Definitions/hdtorrentsit.yml 
+2018-05-13 22:36:19.9751 Info Loading Cardigann definition /app/Jackett/Definitions/hon3yhd.yml 
+2018-05-13 22:36:19.9893 Info Loading Cardigann definition /app/Jackett/Definitions/horriblesubs.yml 
+2018-05-13 22:36:20.0006 Info Loading Cardigann definition /app/Jackett/Definitions/hyperay.yml 
+2018-05-13 22:36:20.0168 Info Loading Cardigann definition /app/Jackett/Definitions/icetorrent.yml 
+2018-05-13 22:36:20.0356 Info Loading Cardigann definition /app/Jackett/Definitions/idope.yml 
+2018-05-13 22:36:20.0527 Info Loading Cardigann definition /app/Jackett/Definitions/ilcorsaronero.yml 
+2018-05-13 22:36:20.0682 Info Loading Cardigann definition /app/Jackett/Definitions/iloveclassics.yml 
+2018-05-13 22:36:20.0842 Info Loading Cardigann definition /app/Jackett/Definitions/inperil.yml 
+2018-05-13 22:36:20.1023 Info Loading Cardigann definition /app/Jackett/Definitions/insanetracker.yml 
+2018-05-13 22:36:20.1146 Info Loading Cardigann definition /app/Jackett/Definitions/isohunt2.yml 
+2018-05-13 22:36:20.1265 Info Loading Cardigann definition /app/Jackett/Definitions/jpopsuki.yml 
+2018-05-13 22:36:20.1399 Info Loading Cardigann definition /app/Jackett/Definitions/kapaki.yml 
+2018-05-13 22:36:20.1626 Info Loading Cardigann definition /app/Jackett/Definitions/karagarga.yml 
+2018-05-13 22:36:20.1744 Info Loading Cardigann definition /app/Jackett/Definitions/kickasstorrent-kathow.yml 
+2018-05-13 22:36:20.1836 Info Loading Cardigann definition /app/Jackett/Definitions/kickasstorrent.yml 
+2018-05-13 22:36:20.2059 Info Loading Cardigann definition /app/Jackett/Definitions/kinozal.yml 
+2018-05-13 22:36:20.2347 Info Loading Cardigann definition /app/Jackett/Definitions/limetorrents.yml 
+2018-05-13 22:36:20.2460 Info Loading Cardigann definition /app/Jackett/Definitions/linkomanija.yml 
+2018-05-13 22:36:20.2621 Info Loading Cardigann definition /app/Jackett/Definitions/losslessclub.yml 
+2018-05-13 22:36:20.3150 Info Loading Cardigann definition /app/Jackett/Definitions/magico.yml 
+2018-05-13 22:36:20.3316 Info Loading Cardigann definition /app/Jackett/Definitions/magnetdl.yml 
+2018-05-13 22:36:20.3539 Info Loading Cardigann definition /app/Jackett/Definitions/majomparade.yml 
+2018-05-13 22:36:20.3870 Info Loading Cardigann definition /app/Jackett/Definitions/manicomioshare.yml 
+2018-05-13 22:36:20.4084 Info Loading Cardigann definition /app/Jackett/Definitions/megabliz.yml 
+2018-05-13 22:36:20.4241 Info Loading Cardigann definition /app/Jackett/Definitions/metaltracker.yml 
+2018-05-13 22:36:20.4408 Info Loading Cardigann definition /app/Jackett/Definitions/mononokebt.yml 
+2018-05-13 22:36:20.4584 Info Loading Cardigann definition /app/Jackett/Definitions/mteamtp.yml 
+2018-05-13 22:36:20.4780 Info Loading Cardigann definition /app/Jackett/Definitions/mvgroupforum.yml 
+2018-05-13 22:36:20.4997 Info Loading Cardigann definition /app/Jackett/Definitions/mvgroupmain.yml 
+2018-05-13 22:36:20.5154 Info Loading Cardigann definition /app/Jackett/Definitions/myspleen.yml 
+2018-05-13 22:36:20.5263 Info Loading Cardigann definition /app/Jackett/Definitions/nethd.yml 
+2018-05-13 22:36:20.5517 Info Loading Cardigann definition /app/Jackett/Definitions/newretro.yml 
+2018-05-13 22:36:20.5764 Info Loading Cardigann definition /app/Jackett/Definitions/newstudio.yml 
+2018-05-13 22:36:20.6031 Info Loading Cardigann definition /app/Jackett/Definitions/nexttorrent.yml 
+2018-05-13 22:36:20.6196 Info Loading Cardigann definition /app/Jackett/Definitions/nnm-club.yml 
+2018-05-13 22:36:20.6958 Info Loading Cardigann definition /app/Jackett/Definitions/nyaa-pantsu.yml 
+2018-05-13 22:36:20.7066 Info Loading Cardigann definition /app/Jackett/Definitions/nyaasi.yml 
+2018-05-13 22:36:20.7173 Info Loading Cardigann definition /app/Jackett/Definitions/nyoo.yml 
+2018-05-13 22:36:20.7281 Info Loading Cardigann definition /app/Jackett/Definitions/ourbits.yml 
+2018-05-13 22:36:20.7428 Info Loading Cardigann definition /app/Jackett/Definitions/passionetorrent.yml 
+2018-05-13 22:36:20.7634 Info Loading Cardigann definition /app/Jackett/Definitions/polishsource.yml 
+2018-05-13 22:36:20.7774 Info Loading Cardigann definition /app/Jackett/Definitions/ptfiles.yml 
+2018-05-13 22:36:20.7963 Info Loading Cardigann definition /app/Jackett/Definitions/puntotorrent.yml 
+2018-05-13 22:36:20.8155 Info Loading Cardigann definition /app/Jackett/Definitions/racing4everyone.yml 
+2018-05-13 22:36:20.8277 Info Loading Cardigann definition /app/Jackett/Definitions/rodvd.yml 
+2018-05-13 22:36:20.8545 Info Loading Cardigann definition /app/Jackett/Definitions/rutor.yml 
+2018-05-13 22:36:20.8854 Info Loading Cardigann definition /app/Jackett/Definitions/scenefz.yml 
+2018-05-13 22:36:20.9059 Info Loading Cardigann definition /app/Jackett/Definitions/scenereactor.yml 
+2018-05-13 22:36:20.9305 Info Loading Cardigann definition /app/Jackett/Definitions/sdbits.yml 
+2018-05-13 22:36:20.9499 Info Loading Cardigann definition /app/Jackett/Definitions/shareisland.yml 
+2018-05-13 22:36:20.9725 Info Loading Cardigann definition /app/Jackett/Definitions/sharespacedb.yml 
+2018-05-13 22:36:20.9944 Info Loading Cardigann definition /app/Jackett/Definitions/shellife.yml 
+2018-05-13 22:36:21.0090 Info Loading Cardigann definition /app/Jackett/Definitions/sktorrent.yml 
+2018-05-13 22:36:21.0229 Info Loading Cardigann definition /app/Jackett/Definitions/speed-share.yml 
+2018-05-13 22:36:21.0511 Info Loading Cardigann definition /app/Jackett/Definitions/speedtorrentreloaded.yml 
+2018-05-13 22:36:21.0675 Info Loading Cardigann definition /app/Jackett/Definitions/sporthd.yml 
+2018-05-13 22:36:21.0842 Info Loading Cardigann definition /app/Jackett/Definitions/sportscult.yml 
+2018-05-13 22:36:21.1054 Info Loading Cardigann definition /app/Jackett/Definitions/sukebei-pantsu.yml 
+2018-05-13 22:36:21.1232 Info Loading Cardigann definition /app/Jackett/Definitions/sukebeinyaasi.yml 
+2018-05-13 22:36:21.1403 Info Loading Cardigann definition /app/Jackett/Definitions/tasmanit.yml 
+2018-05-13 22:36:21.1571 Info Loading Cardigann definition /app/Jackett/Definitions/tbplus.yml 
+2018-05-13 22:36:21.1760 Info Loading Cardigann definition /app/Jackett/Definitions/tehconnection.yml 
+2018-05-13 22:36:21.1894 Info Loading Cardigann definition /app/Jackett/Definitions/tenyardtracker.yml 
+2018-05-13 22:36:21.2068 Info Loading Cardigann definition /app/Jackett/Definitions/theempire.yml 
+2018-05-13 22:36:21.2197 Info Loading Cardigann definition /app/Jackett/Definitions/thegeeks.yml 
+2018-05-13 22:36:21.2377 Info Loading Cardigann definition /app/Jackett/Definitions/thehorrorcharnel.yml 
+2018-05-13 22:36:21.2517 Info Loading Cardigann definition /app/Jackett/Definitions/theoccult.yml 
+2018-05-13 22:36:21.2723 Info Loading Cardigann definition /app/Jackett/Definitions/thepiratebay.yml 
+2018-05-13 22:36:21.2950 Info Loading Cardigann definition /app/Jackett/Definitions/theplace.yml 
+2018-05-13 22:36:21.3105 Info Loading Cardigann definition /app/Jackett/Definitions/theshinning.yml 
+2018-05-13 22:36:21.3248 Info Loading Cardigann definition /app/Jackett/Definitions/theshow.yml 
+2018-05-13 22:36:21.3435 Info Loading Cardigann definition /app/Jackett/Definitions/thetorrents.yml 
+2018-05-13 22:36:21.3654 Info Loading Cardigann definition /app/Jackett/Definitions/thevault.yml 
+2018-05-13 22:36:21.3827 Info Loading Cardigann definition /app/Jackett/Definitions/tntvillage.yml 
+2018-05-13 22:36:21.4021 Info Loading Cardigann definition /app/Jackett/Definitions/tokyotosho.yml 
+2018-05-13 22:36:21.4113 Info Loading Cardigann definition /app/Jackett/Definitions/torlock.yml 
+2018-05-13 22:36:21.4291 Info Loading Cardigann definition /app/Jackett/Definitions/torrent9.yml 
+2018-05-13 22:36:21.4433 Info Loading Cardigann definition /app/Jackett/Definitions/torrentbd.yml 
+2018-05-13 22:36:21.4685 Info Loading Cardigann definition /app/Jackett/Definitions/torrentccf.yml 
+2018-05-13 22:36:21.4843 Info Loading Cardigann definition /app/Jackett/Definitions/torrentdownloads.yml 
+2018-05-13 22:36:21.4937 Info Loading Cardigann definition /app/Jackett/Definitions/torrenthr.yml 
+2018-05-13 22:36:21.5119 Info Loading Cardigann definition /app/Jackett/Definitions/torrenting.yml 
+2018-05-13 22:36:21.5307 Info Loading Cardigann definition /app/Jackett/Definitions/torrentkim.yml 
+2018-05-13 22:36:21.5461 Info Loading Cardigann definition /app/Jackett/Definitions/torrentland.yml 
+2018-05-13 22:36:21.5715 Info Loading Cardigann definition /app/Jackett/Definitions/torrentlt.yml 
+2018-05-13 22:36:21.5881 Info Loading Cardigann definition /app/Jackett/Definitions/torrentsectorcrew.yml 
+2018-05-13 22:36:21.6100 Info Loading Cardigann definition /app/Jackett/Definitions/torrentseeds.yml 
+2018-05-13 22:36:21.6275 Info Loading Cardigann definition /app/Jackett/Definitions/torrentsmd.yml 
+2018-05-13 22:36:21.6387 Info Loading Cardigann definition /app/Jackett/Definitions/torrentwtf.yml 
+2018-05-13 22:36:21.6538 Info Loading Cardigann definition /app/Jackett/Definitions/torrentz2.yml 
+2018-05-13 22:36:21.6662 Info Loading Cardigann definition /app/Jackett/Definitions/torviet.yml 
+2018-05-13 22:36:21.6854 Info Loading Cardigann definition /app/Jackett/Definitions/totheglory.yml 
+2018-05-13 22:36:21.7062 Info Loading Cardigann definition /app/Jackett/Definitions/trancetraffic.yml 
+2018-05-13 22:36:21.7202 Info Loading Cardigann definition /app/Jackett/Definitions/trezzor.yml 
+2018-05-13 22:36:21.7319 Info Loading Cardigann definition /app/Jackett/Definitions/uhdbits.yml 
+2018-05-13 22:36:21.7457 Info Loading Cardigann definition /app/Jackett/Definitions/ultimategamerclub.yml 
+2018-05-13 22:36:21.7694 Info Loading Cardigann definition /app/Jackett/Definitions/unionfansub.yml 
+2018-05-13 22:36:21.7850 Info Loading Cardigann definition /app/Jackett/Definitions/waffles.yml 
+2018-05-13 22:36:21.8065 Info Loading Cardigann definition /app/Jackett/Definitions/worldofp2p.yml 
+2018-05-13 22:36:21.8263 Info Loading Cardigann definition /app/Jackett/Definitions/worldwidetorrents.yml 
+2018-05-13 22:36:21.8497 Info Loading Cardigann definition /app/Jackett/Definitions/xbytes2.yml 
+2018-05-13 22:36:21.8610 Info Loading Cardigann definition /app/Jackett/Definitions/xtremezone.yml 
+2018-05-13 22:36:21.9128 Info Loading Cardigann definition /app/Jackett/Definitions/yggtorrent.yml 
+2018-05-13 22:36:21.9281 Info Loading Cardigann definition /app/Jackett/Definitions/yourexotic.yml 
+2018-05-13 22:36:21.9381 Info Loading Cardigann definition /app/Jackett/Definitions/zamundanet.yml 
+2018-05-13 22:36:21.9512 Info Loading Cardigann definition /app/Jackett/Definitions/zelkaorg.yml 
+2018-05-13 22:36:21.9609 Info Loading Cardigann definition /app/Jackett/Definitions/zooqle.yml 
+2018-05-13 22:36:21.9766 Info Loading Cardigann definition /app/Jackett/Definitions/ztracker.yml 
+2018-05-13 22:36:21.9913 Info Adding aggregate indexer 
+2018-05-13 22:36:22.0106 Info Starting web server at http://*:9117/ 
+2018-05-13 22:40:51.8359 Info Manual search for "" on  with 0 results. 
+2018-05-13 22:43:37.4781 Info Found 75 releases from Anime Tosho 
+2018-05-13 22:45:00.7588 Info redirecting to /UI/Dashboard 
+2018-05-13 22:53:04.3422 Error System.Security.Cryptography.CryptographicException: Data protection failed. ---> System.Security.Cryptography.CryptographicException: Improperly protected user's key pairs in '/config/.mono/keypairs'.
+  at Mono.Security.Cryptography.KeyPairPersistence.get_UserPath () [0x000eb] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at Mono.Security.Cryptography.KeyPairPersistence.get_Filename () [0x00063] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at Mono.Security.Cryptography.KeyPairPersistence.Load () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Security.Cryptography.RSACryptoServiceProvider.Common (System.Security.Cryptography.CspParameters p) [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Security.Cryptography.RSACryptoServiceProvider..ctor (System.Int32 dwKeySize, System.Security.Cryptography.CspParameters parameters) [0x0001d] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at Mono.Security.Cryptography.ManagedProtection.GetKey (System.Security.Cryptography.DataProtectionScope scope) [0x00034] in <0b7002aa34da4f6d9461aeb5be9d1d18>:0 
+  at Mono.Security.Cryptography.ManagedProtection.Protect (System.Byte[] userData, System.Byte[] optionalEntropy, System.Security.Cryptography.DataProtectionScope scope) [0x00133] in <0b7002aa34da4f6d9461aeb5be9d1d18>:0 
+  at System.Security.Cryptography.ProtectedData.Protect (System.Byte[] userData, System.Byte[] optionalEntropy, System.Security.Cryptography.DataProtectionScope scope) [0x00023] in <0b7002aa34da4f6d9461aeb5be9d1d18>:0 
+   --- End of inner exception stack trace ---
+  at System.Security.Cryptography.ProtectedData.Protect (System.Byte[] userData, System.Byte[] optionalEntropy, System.Security.Cryptography.DataProtectionScope scope) [0x0003f] in <0b7002aa34da4f6d9461aeb5be9d1d18>:0 
+  at Jackett.Services.ProtectionService.ProtectDefaultMethod (System.String plainText) [0x00052] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Services.ProtectionService.Protect (System.String plainText) [0x0000e] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Services.ServerService.ConvertToProxyLink (System.Uri link, System.String serverUrl, System.String indexerId, System.String action, System.String file) [0x00031] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Controllers.IndexerApiController.ConfigureCacheResults (System.Collections.Generic.IEnumerable`1[T] results) [0x00050] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Controllers.IndexerApiController.Cache () [0x0000c] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at (wrapper dynamic-method) System.Object.lambda_method(System.Runtime.CompilerServices.Closure,object,object[])
+  at System.Web.Http.Controllers.ReflectedHttpActionDescriptor+ActionExecutor+<>c__DisplayClass6_1.<GetExecutor>b__3 (System.Object instance, System.Object[] methodParameters) [0x00000] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+  at System.Web.Http.Controllers.ReflectedHttpActionDescriptor+ActionExecutor.Execute (System.Object instance, System.Object[] arguments) [0x00000] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+  at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync (System.Web.Http.Controllers.HttpControllerContext controllerContext, System.Collections.Generic.IDictionary`2[TKey,TValue] arguments, System.Threading.CancellationToken cancellationToken) [0x00046] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.ITraceWriterExtensions+<TraceBeginEndAsyncCore>d__17`1[TResult].MoveNext () [0x001a7] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ApiControllerActionInvoker+<InvokeActionAsyncCore>d__1.MoveNext () [0x000ab] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.ITraceWriterExtensions+<TraceBeginEndAsyncCore>d__17`1[TResult].MoveNext () [0x001a7] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x00091] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x001ad] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00103] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ActionFilterResult+<ExecuteAsync>d__5.MoveNext () [0x001af] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.AuthorizationFilterAttribute+<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext () [0x000f3] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ExceptionFilterResult+<ExecuteAsync>d__6.MoveNext () [0x00087] in <69abafc3d8434ab584330d77cc8d6da3>:0  System.Security.Cryptography.CryptographicException: Data protection failed. ---> System.Security.Cryptography.CryptographicException: Improperly protected user's key pairs in '/config/.mono/keypairs'.
+  at Mono.Security.Cryptography.KeyPairPersistence.get_UserPath () [0x000eb] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at Mono.Security.Cryptography.KeyPairPersistence.get_Filename () [0x00063] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at Mono.Security.Cryptography.KeyPairPersistence.Load () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Security.Cryptography.RSACryptoServiceProvider.Common (System.Security.Cryptography.CspParameters p) [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Security.Cryptography.RSACryptoServiceProvider..ctor (System.Int32 dwKeySize, System.Security.Cryptography.CspParameters parameters) [0x0001d] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at Mono.Security.Cryptography.ManagedProtection.GetKey (System.Security.Cryptography.DataProtectionScope scope) [0x00034] in <0b7002aa34da4f6d9461aeb5be9d1d18>:0 
+  at Mono.Security.Cryptography.ManagedProtection.Protect (System.Byte[] userData, System.Byte[] optionalEntropy, System.Security.Cryptography.DataProtectionScope scope) [0x00133] in <0b7002aa34da4f6d9461aeb5be9d1d18>:0 
+  at System.Security.Cryptography.ProtectedData.Protect (System.Byte[] userData, System.Byte[] optionalEntropy, System.Security.Cryptography.DataProtectionScope scope) [0x00023] in <0b7002aa34da4f6d9461aeb5be9d1d18>:0 
+   --- End of inner exception stack trace ---
+  at System.Security.Cryptography.ProtectedData.Protect (System.Byte[] userData, System.Byte[] optionalEntropy, System.Security.Cryptography.DataProtectionScope scope) [0x0003f] in <0b7002aa34da4f6d9461aeb5be9d1d18>:0 
+  at Jackett.Services.ProtectionService.ProtectDefaultMethod (System.String plainText) [0x00052] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Services.ProtectionService.Protect (System.String plainText) [0x0000e] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Services.ServerService.ConvertToProxyLink (System.Uri link, System.String serverUrl, System.String indexerId, System.String action, System.String file) [0x00031] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Controllers.IndexerApiController.ConfigureCacheResults (System.Collections.Generic.IEnumerable`1[T] results) [0x00050] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Controllers.IndexerApiController.Cache () [0x0000c] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at (wrapper dynamic-method) System.Object.lambda_method(System.Runtime.CompilerServices.Closure,object,object[])
+  at System.Web.Http.Controllers.ReflectedHttpActionDescriptor+ActionExecutor+<>c__DisplayClass6_1.<GetExecutor>b__3 (System.Object instance, System.Object[] methodParameters) [0x00000] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+  at System.Web.Http.Controllers.ReflectedHttpActionDescriptor+ActionExecutor.Execute (System.Object instance, System.Object[] arguments) [0x00000] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+  at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync (System.Web.Http.Controllers.HttpControllerContext controllerContext, System.Collections.Generic.IDictionary`2[TKey,TValue] arguments, System.Threading.CancellationToken cancellationToken) [0x00046] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.ITraceWriterExtensions+<TraceBeginEndAsyncCore>d__17`1[TResult].MoveNext () [0x001a7] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ApiControllerActionInvoker+<InvokeActionAsyncCore>d__1.MoveNext () [0x000ab] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.ITraceWriterExtensions+<TraceBeginEndAsyncCore>d__17`1[TResult].MoveNext () [0x001a7] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x00091] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x001ad] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00103] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ActionFilterResult+<ExecuteAsync>d__5.MoveNext () [0x001af] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.AuthorizationFilterAttribute+<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext () [0x000f3] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ExceptionFilterResult+<ExecuteAsync>d__6.MoveNext () [0x00087] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+2018-05-13 22:53:43.0764 Info Adding aggregate indexer 
+2018-05-13 23:04:35.8090 Error Request for unknown indexer: freshon 
+2018-05-13 23:04:35.8403 Error System.Exception: Unknown indexer: freshon
+  at Jackett.Common.Services.IndexerManagerService.GetIndexer (System.String name) [0x00050] in <8f0371bd64df4c5586b39ef89f2e2818>:0 
+  at Jackett.Controllers.RequiresConfiguredIndexerAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x0009f] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Controllers.RequiresValidQueryAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x00000] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync (System.Web.Http.Controllers.HttpActionContext actionContext, System.Threading.CancellationToken cancellationToken) [0x00000] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.Tracers.ActionFilterAttributeTracer+<>c__DisplayClass18_0+<<OnActionExecutingAsyncCore>b__1>d.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.ITraceWriterExtensions+<TraceBeginEndAsyncCore>d__19.MoveNext () [0x0014e] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x00091] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x001ad] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00103] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ActionFilterResult+<ExecuteAsync>d__5.MoveNext () [0x001af] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.AuthorizationFilterAttribute+<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext () [0x000f3] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ExceptionFilterResult+<ExecuteAsync>d__6.MoveNext () [0x00087] in <69abafc3d8434ab584330d77cc8d6da3>:0  System.Exception: Unknown indexer: freshon
+  at Jackett.Common.Services.IndexerManagerService.GetIndexer (System.String name) [0x00050] in <8f0371bd64df4c5586b39ef89f2e2818>:0 
+  at Jackett.Controllers.RequiresConfiguredIndexerAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x0009f] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Controllers.RequiresValidQueryAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x00000] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync (System.Web.Http.Controllers.HttpActionContext actionContext, System.Threading.CancellationToken cancellationToken) [0x00000] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.Tracers.ActionFilterAttributeTracer+<>c__DisplayClass18_0+<<OnActionExecutingAsyncCore>b__1>d.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.ITraceWriterExtensions+<TraceBeginEndAsyncCore>d__19.MoveNext () [0x0014e] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x00091] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x001ad] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00103] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ActionFilterResult+<ExecuteAsync>d__5.MoveNext () [0x001af] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.AuthorizationFilterAttribute+<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext () [0x000f3] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ExceptionFilterResult+<ExecuteAsync>d__6.MoveNext () [0x00087] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+2018-05-13 23:04:47.4159 Error Request for unknown indexer: api 
+2018-05-13 23:04:47.4275 Error System.Exception: Unknown indexer: api
+  at Jackett.Common.Services.IndexerManagerService.GetIndexer (System.String name) [0x00050] in <8f0371bd64df4c5586b39ef89f2e2818>:0 
+  at Jackett.Controllers.RequiresConfiguredIndexerAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x0009f] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Controllers.RequiresValidQueryAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x00000] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync (System.Web.Http.Controllers.HttpActionContext actionContext, System.Threading.CancellationToken cancellationToken) [0x00000] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.Tracers.ActionFilterAttributeTracer+<>c__DisplayClass18_0+<<OnActionExecutingAsyncCore>b__1>d.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.ITraceWriterExtensions+<TraceBeginEndAsyncCore>d__19.MoveNext () [0x0014e] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x00091] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x001ad] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00103] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ActionFilterResult+<ExecuteAsync>d__5.MoveNext () [0x001af] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.AuthorizationFilterAttribute+<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext () [0x000f3] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ExceptionFilterResult+<ExecuteAsync>d__6.MoveNext () [0x00087] in <69abafc3d8434ab584330d77cc8d6da3>:0  System.Exception: Unknown indexer: api
+  at Jackett.Common.Services.IndexerManagerService.GetIndexer (System.String name) [0x00050] in <8f0371bd64df4c5586b39ef89f2e2818>:0 
+  at Jackett.Controllers.RequiresConfiguredIndexerAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x0009f] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Controllers.RequiresValidQueryAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x00000] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync (System.Web.Http.Controllers.HttpActionContext actionContext, System.Threading.CancellationToken cancellationToken) [0x00000] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.Tracers.ActionFilterAttributeTracer+<>c__DisplayClass18_0+<<OnActionExecutingAsyncCore>b__1>d.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.ITraceWriterExtensions+<TraceBeginEndAsyncCore>d__19.MoveNext () [0x0014e] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x00091] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x001ad] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00103] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ActionFilterResult+<ExecuteAsync>d__5.MoveNext () [0x001af] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.AuthorizationFilterAttribute+<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext () [0x000f3] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ExceptionFilterResult+<ExecuteAsync>d__6.MoveNext () [0x00087] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+2018-05-13 23:05:17.8341 Error Request for unknown indexer: EZTV 
+2018-05-13 23:05:17.8643 Error System.Exception: Unknown indexer: EZTV
+  at Jackett.Common.Services.IndexerManagerService.GetIndexer (System.String name) [0x00050] in <8f0371bd64df4c5586b39ef89f2e2818>:0 
+  at Jackett.Controllers.RequiresConfiguredIndexerAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x0009f] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Controllers.RequiresValidQueryAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x00000] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync (System.Web.Http.Controllers.HttpActionContext actionContext, System.Threading.CancellationToken cancellationToken) [0x00000] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.Tracers.ActionFilterAttributeTracer+<>c__DisplayClass18_0+<<OnActionExecutingAsyncCore>b__1>d.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.ITraceWriterExtensions+<TraceBeginEndAsyncCore>d__19.MoveNext () [0x0014e] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x00091] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x001ad] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00103] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ActionFilterResult+<ExecuteAsync>d__5.MoveNext () [0x001af] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.AuthorizationFilterAttribute+<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext () [0x000f3] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ExceptionFilterResult+<ExecuteAsync>d__6.MoveNext () [0x00087] in <69abafc3d8434ab584330d77cc8d6da3>:0  System.Exception: Unknown indexer: EZTV
+  at Jackett.Common.Services.IndexerManagerService.GetIndexer (System.String name) [0x00050] in <8f0371bd64df4c5586b39ef89f2e2818>:0 
+  at Jackett.Controllers.RequiresConfiguredIndexerAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x0009f] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Controllers.RequiresValidQueryAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x00000] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync (System.Web.Http.Controllers.HttpActionContext actionContext, System.Threading.CancellationToken cancellationToken) [0x00000] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.Tracers.ActionFilterAttributeTracer+<>c__DisplayClass18_0+<<OnActionExecutingAsyncCore>b__1>d.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.ITraceWriterExtensions+<TraceBeginEndAsyncCore>d__19.MoveNext () [0x0014e] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x00091] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x001ad] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00103] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ActionFilterResult+<ExecuteAsync>d__5.MoveNext () [0x001af] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.AuthorizationFilterAttribute+<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext () [0x000f3] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ExceptionFilterResult+<ExecuteAsync>d__6.MoveNext () [0x00087] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+2018-05-13 23:05:50.2639 Info redirecting to /UI/search 
+2018-05-13 23:10:41.4006 Error Request for unknown indexer: api 
+2018-05-13 23:10:41.4217 Error System.Exception: Unknown indexer: api
+  at Jackett.Common.Services.IndexerManagerService.GetIndexer (System.String name) [0x00050] in <8f0371bd64df4c5586b39ef89f2e2818>:0 
+  at Jackett.Controllers.RequiresConfiguredIndexerAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x0009f] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Controllers.RequiresValidQueryAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x00000] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync (System.Web.Http.Controllers.HttpActionContext actionContext, System.Threading.CancellationToken cancellationToken) [0x00000] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.Tracers.ActionFilterAttributeTracer+<>c__DisplayClass18_0+<<OnActionExecutingAsyncCore>b__1>d.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.ITraceWriterExtensions+<TraceBeginEndAsyncCore>d__19.MoveNext () [0x0014e] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x00091] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x001ad] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00103] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ActionFilterResult+<ExecuteAsync>d__5.MoveNext () [0x001af] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.AuthorizationFilterAttribute+<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext () [0x000f3] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ExceptionFilterResult+<ExecuteAsync>d__6.MoveNext () [0x00087] in <69abafc3d8434ab584330d77cc8d6da3>:0  System.Exception: Unknown indexer: api
+  at Jackett.Common.Services.IndexerManagerService.GetIndexer (System.String name) [0x00050] in <8f0371bd64df4c5586b39ef89f2e2818>:0 
+  at Jackett.Controllers.RequiresConfiguredIndexerAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x0009f] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at Jackett.Controllers.RequiresValidQueryAttribute.OnActionExecuting (System.Web.Http.Controllers.HttpActionContext actionContext) [0x00000] in <f1d4a0d422454379ad5616f6ec73a882>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute.OnActionExecutingAsync (System.Web.Http.Controllers.HttpActionContext actionContext, System.Threading.CancellationToken cancellationToken) [0x00000] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.Tracers.ActionFilterAttributeTracer+<>c__DisplayClass18_0+<<OnActionExecutingAsyncCore>b__1>d.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Tracing.ITraceWriterExtensions+<TraceBeginEndAsyncCore>d__19.MoveNext () [0x0014e] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00078] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x00091] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<CallOnActionExecutedAsync>d__6.MoveNext () [0x001ad] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.ActionFilterAttribute+<ExecuteActionFilterAsyncCore>d__5.MoveNext () [0x00103] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ActionFilterResult+<ExecuteAsync>d__5.MoveNext () [0x001af] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Filters.AuthorizationFilterAttribute+<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext () [0x000f3] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <9bbab8f8a2a246e98480e70b0839fd67>:0 
+  at System.Web.Http.Controllers.ExceptionFilterResult+<ExecuteAsync>d__6.MoveNext () [0x00087] in <69abafc3d8434ab584330d77cc8d6da3>:0 
+2018-05-13 23:13:43.2279 Info App config/log directory: /config/Jackett 
+2018-05-13 23:13:43.4792 Info Starting Jackett 0.8.953.0 
+2018-05-13 23:13:43.4874 Info Environment version: 4.0.30319.42000 (/usr/lib/mono/4.5) 
+2018-05-13 23:13:43.4948 Info OS version: Unix 4.9.87.0 (64bit OS) (64bit process) 
+2018-05-13 23:13:43.5072 Info ThreadPool MaxThreads: 200 workerThreads, 200 completionPortThreads 
+2018-05-13 23:13:43.5301 Info issue: Ubuntu 16.04.4 LTS \n \l 
+2018-05-13 23:13:43.5431 Info mono version: 5.10.1.47 (tarball Tue Apr 17 15:12:35 UTC 2018) 
+2018-05-13 23:13:43.6604 Info TrustedRootCertificates count: 148 
+2018-05-13 23:13:43.6742 Info Using HTTP Client: HttpWebClient 
+2018-05-13 23:13:44.3713 Info Loading Cardigann definitions from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2018-05-13 23:13:44.4199 Info Loading Cardigann definition /app/Jackett/Definitions/1337x.yml 
+2018-05-13 23:13:44.5264 Info Loading Cardigann definition /app/Jackett/Definitions/2fast4you.yml 
+2018-05-13 23:13:44.5860 Info Loading Cardigann definition /app/Jackett/Definitions/3dtorrents.yml 
+2018-05-13 23:13:44.6200 Info Loading Cardigann definition /app/Jackett/Definitions/Bittorrentfiles.yml 
+2018-05-13 23:13:44.6622 Info Loading Cardigann definition /app/Jackett/Definitions/acidlounge.yml 
+2018-05-13 23:13:44.6768 Info Loading Cardigann definition /app/Jackett/Definitions/anidex.yml 
+2018-05-13 23:13:44.6916 Info Loading Cardigann definition /app/Jackett/Definitions/anirena.yml 
+2018-05-13 23:13:44.7086 Info Loading Cardigann definition /app/Jackett/Definitions/aox.yml 
+2018-05-13 23:13:44.7255 Info Loading Cardigann definition /app/Jackett/Definitions/arabafenice.yml 
+2018-05-13 23:13:44.7577 Info Loading Cardigann definition /app/Jackett/Definitions/archetorrent.yml 
+2018-05-13 23:13:44.7787 Info Loading Cardigann definition /app/Jackett/Definitions/asiandvdclub.yml 
+2018-05-13 23:13:44.7981 Info Loading Cardigann definition /app/Jackett/Definitions/ast4u.yml 
+2018-05-13 23:13:44.8179 Info Loading Cardigann definition /app/Jackett/Definitions/audiobooktorrents.yml 
+2018-05-13 23:13:44.8494 Info Loading Cardigann definition /app/Jackett/Definitions/awesomehd.yml 
+2018-05-13 23:13:44.8620 Info Loading Cardigann definition /app/Jackett/Definitions/b2s-share.yml 
+2018-05-13 23:13:44.8948 Info Loading Cardigann definition /app/Jackett/Definitions/backups.yml 
+2018-05-13 23:13:44.9242 Info Loading Cardigann definition /app/Jackett/Definitions/bigtorrent.yml 
+2018-05-13 23:13:44.9540 Info Loading Cardigann definition /app/Jackett/Definitions/bithorlo.yml 
+2018-05-13 23:13:44.9868 Info Loading Cardigann definition /app/Jackett/Definitions/bithumen.yml 
+2018-05-13 23:13:45.0251 Info Loading Cardigann definition /app/Jackett/Definitions/bitme.yml 
+2018-05-13 23:13:45.0586 Info Loading Cardigann definition /app/Jackett/Definitions/bitspyder.yml 
+2018-05-13 23:13:45.0764 Info Loading Cardigann definition /app/Jackett/Definitions/bluebird.yml 
+2018-05-13 23:13:45.0993 Info Loading Cardigann definition /app/Jackett/Definitions/blutopia.yml 
+2018-05-13 23:13:45.1157 Info Loading Cardigann definition /app/Jackett/Definitions/bt-scene.yml 
+2018-05-13 23:13:45.1289 Info Loading Cardigann definition /app/Jackett/Definitions/btbit.yml 
+2018-05-13 23:13:45.1397 Info Loading Cardigann definition /app/Jackett/Definitions/btdb.yml 
+2018-05-13 23:13:45.1510 Info Loading Cardigann definition /app/Jackett/Definitions/btnext.yml 
+2018-05-13 23:13:45.1777 Info Loading Cardigann definition /app/Jackett/Definitions/btworld.yml 
+2018-05-13 23:13:45.1974 Info Loading Cardigann definition /app/Jackett/Definitions/carpathians.yml 
+2018-05-13 23:13:45.2127 Info Loading Cardigann definition /app/Jackett/Definitions/ccfbits.yml 
+2018-05-13 23:13:45.2357 Info Loading Cardigann definition /app/Jackett/Definitions/chdbits.yml 
+2018-05-13 23:13:45.2528 Info Loading Cardigann definition /app/Jackett/Definitions/cinemageddon.yml 
+2018-05-13 23:13:45.2712 Info Loading Cardigann definition /app/Jackett/Definitions/cinematik.yml 
+2018-05-13 23:13:45.3079 Info Loading Cardigann definition /app/Jackett/Definitions/classix.yml 
+2018-05-13 23:13:45.3390 Info Loading Cardigann definition /app/Jackett/Definitions/cpabien.yml 
+2018-05-13 23:13:45.3515 Info Loading Cardigann definition /app/Jackett/Definitions/cztorrent.yml 
+2018-05-13 23:13:45.3739 Info Loading Cardigann definition /app/Jackett/Definitions/datascene.yml 
+2018-05-13 23:13:45.3969 Info Loading Cardigann definition /app/Jackett/Definitions/deildu.yml 
+2018-05-13 23:13:45.4377 Info Loading Cardigann definition /app/Jackett/Definitions/diablotorrent.yml 
+2018-05-13 23:13:45.4682 Info Loading Cardigann definition /app/Jackett/Definitions/downloadville.yml 
+2018-05-13 23:13:45.4985 Info Loading Cardigann definition /app/Jackett/Definitions/dragonworldreloaded.yml 
+2018-05-13 23:13:45.5438 Info Loading Cardigann definition /app/Jackett/Definitions/dreamteam.yml 
+2018-05-13 23:13:45.5881 Info Loading Cardigann definition /app/Jackett/Definitions/elitehd.yml 
+2018-05-13 23:13:45.6013 Info Loading Cardigann definition /app/Jackett/Definitions/elittracker.yml 
+2018-05-13 23:13:45.6282 Info Loading Cardigann definition /app/Jackett/Definitions/empornium.yml 
+2018-05-13 23:13:45.6512 Info Loading Cardigann definition /app/Jackett/Definitions/eotforum.yml 
+2018-05-13 23:13:45.6742 Info Loading Cardigann definition /app/Jackett/Definitions/estone.yml 
+2018-05-13 23:13:45.6887 Info Loading Cardigann definition /app/Jackett/Definitions/ethor.yml 
+2018-05-13 23:13:45.7191 Info Loading Cardigann definition /app/Jackett/Definitions/ettv.yml 
+2018-05-13 23:13:45.7485 Info Loading Cardigann definition /app/Jackett/Definitions/extratorrent-ag.yml 
+2018-05-13 23:13:45.9481 Info Loading Cardigann definition /app/Jackett/Definitions/eztv.yml 
+2018-05-13 23:13:45.9617 Info Loading Cardigann definition /app/Jackett/Definitions/fanoin.yml 
+2018-05-13 23:13:45.9771 Info Loading Cardigann definition /app/Jackett/Definitions/femdomcult.yml 
+2018-05-13 23:13:45.9954 Info Loading Cardigann definition /app/Jackett/Definitions/freedomhd.yml 
+2018-05-13 23:13:46.0382 Info Loading Cardigann definition /app/Jackett/Definitions/frozenlayer.yml 
+2018-05-13 23:13:46.0503 Info Loading Cardigann definition /app/Jackett/Definitions/fullmixmusic.yml 
+2018-05-13 23:13:46.0619 Info Loading Cardigann definition /app/Jackett/Definitions/funkytorrents.yml 
+2018-05-13 23:13:46.0751 Info Loading Cardigann definition /app/Jackett/Definitions/gay-torrents.yml 
+2018-05-13 23:13:46.0930 Info Loading Cardigann definition /app/Jackett/Definitions/gaytorrentru.yml 
+2018-05-13 23:13:46.1343 Info Loading Cardigann definition /app/Jackett/Definitions/gfxnews.yml 
+2018-05-13 23:13:46.1903 Info Loading Cardigann definition /app/Jackett/Definitions/gfxpeers.yml 
+2018-05-13 23:13:46.2065 Info Loading Cardigann definition /app/Jackett/Definitions/gigatorrents.yml 
+2018-05-13 23:13:46.2207 Info Loading Cardigann definition /app/Jackett/Definitions/gktorrent.yml 
+2018-05-13 23:13:46.2326 Info Loading Cardigann definition /app/Jackett/Definitions/gods.yml 
+2018-05-13 23:13:46.2494 Info Loading Cardigann definition /app/Jackett/Definitions/greekteam.yml 
+2018-05-13 23:13:46.2641 Info Loading Cardigann definition /app/Jackett/Definitions/hachede.yml 
+2018-05-13 23:13:46.2811 Info Loading Cardigann definition /app/Jackett/Definitions/hdbits.yml 
+2018-05-13 23:13:46.2913 Info Loading Cardigann definition /app/Jackett/Definitions/hdbitscom.yml 
+2018-05-13 23:13:46.3064 Info Loading Cardigann definition /app/Jackett/Definitions/hdchina.yml 
+2018-05-13 23:13:46.3358 Info Loading Cardigann definition /app/Jackett/Definitions/hdcity.yml 
+2018-05-13 23:13:46.3645 Info Loading Cardigann definition /app/Jackett/Definitions/hdhome.yml 
+2018-05-13 23:13:46.4837 Info Loading Cardigann definition /app/Jackett/Definitions/hdme.yml 
+2018-05-13 23:13:46.5586 Info Loading Cardigann definition /app/Jackett/Definitions/hdsky.yml 
+2018-05-13 23:13:46.5892 Info Loading Cardigann definition /app/Jackett/Definitions/hdtorrentsit.yml 
+2018-05-13 23:13:46.6184 Info Loading Cardigann definition /app/Jackett/Definitions/hon3yhd.yml 
+2018-05-13 23:13:46.6568 Info Loading Cardigann definition /app/Jackett/Definitions/horriblesubs.yml 
+2018-05-13 23:13:46.7188 Info Loading Cardigann definition /app/Jackett/Definitions/hyperay.yml 
+2018-05-13 23:13:46.7572 Info Loading Cardigann definition /app/Jackett/Definitions/icetorrent.yml 
+2018-05-13 23:13:46.7868 Info Loading Cardigann definition /app/Jackett/Definitions/idope.yml 
+2018-05-13 23:13:46.8023 Info Loading Cardigann definition /app/Jackett/Definitions/ilcorsaronero.yml 
+2018-05-13 23:13:46.8198 Info Loading Cardigann definition /app/Jackett/Definitions/iloveclassics.yml 
+2018-05-13 23:13:46.9278 Info Loading Cardigann definition /app/Jackett/Definitions/inperil.yml 
+2018-05-13 23:13:46.9715 Info Loading Cardigann definition /app/Jackett/Definitions/insanetracker.yml 
+2018-05-13 23:13:46.9893 Info Loading Cardigann definition /app/Jackett/Definitions/isohunt2.yml 
+2018-05-13 23:13:47.0224 Info Loading Cardigann definition /app/Jackett/Definitions/jpopsuki.yml 
+2018-05-13 23:13:47.0384 Info Loading Cardigann definition /app/Jackett/Definitions/kapaki.yml 
+2018-05-13 23:13:47.0746 Info Loading Cardigann definition /app/Jackett/Definitions/karagarga.yml 
+2018-05-13 23:13:47.0901 Info Loading Cardigann definition /app/Jackett/Definitions/kickasstorrent-kathow.yml 
+2018-05-13 23:13:47.1044 Info Loading Cardigann definition /app/Jackett/Definitions/kickasstorrent.yml 
+2018-05-13 23:13:47.1441 Info Loading Cardigann definition /app/Jackett/Definitions/kinozal.yml 
+2018-05-13 23:13:47.1898 Info Loading Cardigann definition /app/Jackett/Definitions/limetorrents.yml 
+2018-05-13 23:13:47.2096 Info Loading Cardigann definition /app/Jackett/Definitions/linkomanija.yml 
+2018-05-13 23:13:47.2327 Info Loading Cardigann definition /app/Jackett/Definitions/losslessclub.yml 
+2018-05-13 23:13:47.2470 Info Loading Cardigann definition /app/Jackett/Definitions/magico.yml 
+2018-05-13 23:13:47.2837 Info Loading Cardigann definition /app/Jackett/Definitions/magnetdl.yml 
+2018-05-13 23:13:47.3017 Info Loading Cardigann definition /app/Jackett/Definitions/majomparade.yml 
+2018-05-13 23:13:47.3228 Info Loading Cardigann definition /app/Jackett/Definitions/manicomioshare.yml 
+2018-05-13 23:13:47.3680 Info Loading Cardigann definition /app/Jackett/Definitions/megabliz.yml 
+2018-05-13 23:13:47.4277 Info Loading Cardigann definition /app/Jackett/Definitions/metaltracker.yml 
+2018-05-13 23:13:47.4436 Info Loading Cardigann definition /app/Jackett/Definitions/mononokebt.yml 
+2018-05-13 23:13:47.4597 Info Loading Cardigann definition /app/Jackett/Definitions/mteamtp.yml 
+2018-05-13 23:13:47.4883 Info Loading Cardigann definition /app/Jackett/Definitions/mvgroupforum.yml 
+2018-05-13 23:13:47.5138 Info Loading Cardigann definition /app/Jackett/Definitions/mvgroupmain.yml 
+2018-05-13 23:13:47.5300 Info Loading Cardigann definition /app/Jackett/Definitions/myspleen.yml 
+2018-05-13 23:13:47.5453 Info Loading Cardigann definition /app/Jackett/Definitions/nethd.yml 
+2018-05-13 23:13:47.5572 Info Loading Cardigann definition /app/Jackett/Definitions/newretro.yml 
+2018-05-13 23:13:47.5831 Info Loading Cardigann definition /app/Jackett/Definitions/newstudio.yml 
+2018-05-13 23:13:47.6062 Info Loading Cardigann definition /app/Jackett/Definitions/nexttorrent.yml 
+2018-05-13 23:13:47.6199 Info Loading Cardigann definition /app/Jackett/Definitions/nnm-club.yml 
+2018-05-13 23:13:47.7102 Info Loading Cardigann definition /app/Jackett/Definitions/nyaa-pantsu.yml 
+2018-05-13 23:13:47.7462 Info Loading Cardigann definition /app/Jackett/Definitions/nyaasi.yml 
+2018-05-13 23:13:47.7661 Info Loading Cardigann definition /app/Jackett/Definitions/nyoo.yml 
+2018-05-13 23:13:47.7904 Info Loading Cardigann definition /app/Jackett/Definitions/ourbits.yml 
+2018-05-13 23:13:47.8155 Info Loading Cardigann definition /app/Jackett/Definitions/passionetorrent.yml 
+2018-05-13 23:13:47.8389 Info Loading Cardigann definition /app/Jackett/Definitions/polishsource.yml 
+2018-05-13 23:13:47.8559 Info Loading Cardigann definition /app/Jackett/Definitions/ptfiles.yml 
+2018-05-13 23:13:47.8885 Info Loading Cardigann definition /app/Jackett/Definitions/puntotorrent.yml 
+2018-05-13 23:13:47.9120 Info Loading Cardigann definition /app/Jackett/Definitions/racing4everyone.yml 
+2018-05-13 23:13:47.9314 Info Loading Cardigann definition /app/Jackett/Definitions/rodvd.yml 
+2018-05-13 23:13:47.9488 Info Loading Cardigann definition /app/Jackett/Definitions/rutor.yml 
+2018-05-13 23:13:47.9643 Info Loading Cardigann definition /app/Jackett/Definitions/scenefz.yml 
+2018-05-13 23:13:47.9877 Info Loading Cardigann definition /app/Jackett/Definitions/scenereactor.yml 
+2018-05-13 23:13:48.0100 Info Loading Cardigann definition /app/Jackett/Definitions/sdbits.yml 
+2018-05-13 23:13:48.0200 Info Loading Cardigann definition /app/Jackett/Definitions/shareisland.yml 
+2018-05-13 23:13:48.0341 Info Loading Cardigann definition /app/Jackett/Definitions/sharespacedb.yml 
+2018-05-13 23:13:48.0663 Info Loading Cardigann definition /app/Jackett/Definitions/shellife.yml 
+2018-05-13 23:13:48.0893 Info Loading Cardigann definition /app/Jackett/Definitions/sktorrent.yml 
+2018-05-13 23:13:48.1135 Info Loading Cardigann definition /app/Jackett/Definitions/speed-share.yml 
+2018-05-13 23:13:48.1478 Info Loading Cardigann definition /app/Jackett/Definitions/speedtorrentreloaded.yml 
+2018-05-13 23:13:48.1688 Info Loading Cardigann definition /app/Jackett/Definitions/sporthd.yml 
+2018-05-13 23:13:48.1959 Info Loading Cardigann definition /app/Jackett/Definitions/sportscult.yml 
+2018-05-13 23:13:48.2182 Info Loading Cardigann definition /app/Jackett/Definitions/sukebei-pantsu.yml 
+2018-05-13 23:13:48.2359 Info Loading Cardigann definition /app/Jackett/Definitions/sukebeinyaasi.yml 
+2018-05-13 23:13:48.2564 Info Loading Cardigann definition /app/Jackett/Definitions/tasmanit.yml 
+2018-05-13 23:13:48.2804 Info Loading Cardigann definition /app/Jackett/Definitions/tbplus.yml 
+2018-05-13 23:13:48.2961 Info Loading Cardigann definition /app/Jackett/Definitions/tehconnection.yml 
+2018-05-13 23:13:48.3053 Info Loading Cardigann definition /app/Jackett/Definitions/tenyardtracker.yml 
+2018-05-13 23:13:48.3136 Info Loading Cardigann definition /app/Jackett/Definitions/theempire.yml 
+2018-05-13 23:13:48.3238 Info Loading Cardigann definition /app/Jackett/Definitions/thegeeks.yml 
+2018-05-13 23:13:48.3376 Info Loading Cardigann definition /app/Jackett/Definitions/thehorrorcharnel.yml 
+2018-05-13 23:13:48.3487 Info Loading Cardigann definition /app/Jackett/Definitions/theoccult.yml 
+2018-05-13 23:13:48.3627 Info Loading Cardigann definition /app/Jackett/Definitions/thepiratebay.yml 
+2018-05-13 23:13:48.3761 Info Loading Cardigann definition /app/Jackett/Definitions/theplace.yml 
+2018-05-13 23:13:48.3898 Info Loading Cardigann definition /app/Jackett/Definitions/theshinning.yml 
+2018-05-13 23:13:48.4084 Info Loading Cardigann definition /app/Jackett/Definitions/theshow.yml 
+2018-05-13 23:13:48.4252 Info Loading Cardigann definition /app/Jackett/Definitions/thetorrents.yml 
+2018-05-13 23:13:48.4407 Info Loading Cardigann definition /app/Jackett/Definitions/thevault.yml 
+2018-05-13 23:13:48.4568 Info Loading Cardigann definition /app/Jackett/Definitions/tntvillage.yml 
+2018-05-13 23:13:48.4689 Info Loading Cardigann definition /app/Jackett/Definitions/tokyotosho.yml 
+2018-05-13 23:13:48.4807 Info Loading Cardigann definition /app/Jackett/Definitions/torlock.yml 
+2018-05-13 23:13:48.5008 Info Loading Cardigann definition /app/Jackett/Definitions/torrent9.yml 
+2018-05-13 23:13:48.5213 Info Loading Cardigann definition /app/Jackett/Definitions/torrentbd.yml 
+2018-05-13 23:13:48.5387 Info Loading Cardigann definition /app/Jackett/Definitions/torrentccf.yml 
+2018-05-13 23:13:48.5777 Info Loading Cardigann definition /app/Jackett/Definitions/torrentdownloads.yml 
+2018-05-13 23:13:48.5913 Info Loading Cardigann definition /app/Jackett/Definitions/torrenthr.yml 
+2018-05-13 23:13:48.6038 Info Loading Cardigann definition /app/Jackett/Definitions/torrenting.yml 
+2018-05-13 23:13:48.6182 Info Loading Cardigann definition /app/Jackett/Definitions/torrentkim.yml 
+2018-05-13 23:13:48.6273 Info Loading Cardigann definition /app/Jackett/Definitions/torrentland.yml 
+2018-05-13 23:13:48.6397 Info Loading Cardigann definition /app/Jackett/Definitions/torrentlt.yml 
+2018-05-13 23:13:48.6514 Info Loading Cardigann definition /app/Jackett/Definitions/torrentsectorcrew.yml 
+2018-05-13 23:13:48.6670 Info Loading Cardigann definition /app/Jackett/Definitions/torrentseeds.yml 
+2018-05-13 23:13:48.6784 Info Loading Cardigann definition /app/Jackett/Definitions/torrentsmd.yml 
+2018-05-13 23:13:48.6875 Info Loading Cardigann definition /app/Jackett/Definitions/torrentwtf.yml 
+2018-05-13 23:13:48.6971 Info Loading Cardigann definition /app/Jackett/Definitions/torrentz2.yml 
+2018-05-13 23:13:48.7071 Info Loading Cardigann definition /app/Jackett/Definitions/torviet.yml 
+2018-05-13 23:13:48.7198 Info Loading Cardigann definition /app/Jackett/Definitions/totheglory.yml 
+2018-05-13 23:13:48.7326 Info Loading Cardigann definition /app/Jackett/Definitions/trancetraffic.yml 
+2018-05-13 23:13:48.7412 Info Loading Cardigann definition /app/Jackett/Definitions/trezzor.yml 
+2018-05-13 23:13:48.7540 Info Loading Cardigann definition /app/Jackett/Definitions/uhdbits.yml 
+2018-05-13 23:13:48.7635 Info Loading Cardigann definition /app/Jackett/Definitions/ultimategamerclub.yml 
+2018-05-13 23:13:48.7797 Info Loading Cardigann definition /app/Jackett/Definitions/unionfansub.yml 
+2018-05-13 23:13:48.7908 Info Loading Cardigann definition /app/Jackett/Definitions/waffles.yml 
+2018-05-13 23:13:48.8077 Info Loading Cardigann definition /app/Jackett/Definitions/worldofp2p.yml 
+2018-05-13 23:13:48.8197 Info Loading Cardigann definition /app/Jackett/Definitions/worldwidetorrents.yml 
+2018-05-13 23:13:48.8369 Info Loading Cardigann definition /app/Jackett/Definitions/xbytes2.yml 
+2018-05-13 23:13:48.8517 Info Loading Cardigann definition /app/Jackett/Definitions/xtremezone.yml 
+2018-05-13 23:13:48.8639 Info Loading Cardigann definition /app/Jackett/Definitions/yggtorrent.yml 
+2018-05-13 23:13:48.8810 Info Loading Cardigann definition /app/Jackett/Definitions/yourexotic.yml 
+2018-05-13 23:13:48.8938 Info Loading Cardigann definition /app/Jackett/Definitions/zamundanet.yml 
+2018-05-13 23:13:48.9037 Info Loading Cardigann definition /app/Jackett/Definitions/zelkaorg.yml 
+2018-05-13 23:13:48.9159 Info Loading Cardigann definition /app/Jackett/Definitions/zooqle.yml 
+2018-05-13 23:13:48.9259 Info Loading Cardigann definition /app/Jackett/Definitions/ztracker.yml 
+2018-05-13 23:13:48.9377 Info Adding aggregate indexer 
+2018-05-13 23:13:48.9520 Info Starting web server at http://*:9117/ 
+2018-05-14 00:13:49.1873 Info Updates are disabled via --NoUpdates. 
+2018-05-14 09:51:02.2291 Info Found 50 (1 new) releases from EZTV 
+2018-05-14 09:51:09.9807 Info Found 50 (0 new) releases from EZTV 
+2018-05-14 10:02:43.5445 Info Found 19 (1 new) releases from The Pirate Bay 
+2018-05-14 10:02:46.8884 Info Found 19 (0 new) releases from The Pirate Bay 
+2018-05-14 10:05:45.2896 Info Found 23 (1 new) releases from KickAssTorrent 
+2018-05-14 10:05:49.5693 Info Found 23 (0 new) releases from KickAssTorrent 
+2018-05-14 10:17:20.0640 Info Found 22 (0 new) releases from KickAssTorrent 
+2018-05-14 10:17:22.0803 Info Found 23 (14 new) releases from The Pirate Bay 
+2018-05-14 10:18:57.6218 Info App config/log directory: /config/Jackett 
+2018-05-14 10:18:57.7651 Info Starting Jackett 0.8.953.0 
+2018-05-14 10:18:57.7734 Info Environment version: 4.0.30319.42000 (/usr/lib/mono/4.5) 
+2018-05-14 10:18:57.7810 Info OS version: Unix 4.9.87.0 (64bit OS) (64bit process) 
+2018-05-14 10:18:57.7890 Info ThreadPool MaxThreads: 200 workerThreads, 200 completionPortThreads 
+2018-05-14 10:18:57.7974 Info issue: Ubuntu 16.04.4 LTS \n \l 
+2018-05-14 10:18:57.8064 Info mono version: 5.10.1.47 (tarball Tue Apr 17 15:12:35 UTC 2018) 
+2018-05-14 10:18:57.9068 Info TrustedRootCertificates count: 148 
+2018-05-14 10:18:57.9174 Info Using HTTP Client: HttpWebClient 
+2018-05-14 10:18:58.1810 Info Loading Cardigann definitions from: /config/cardigann/definitions/, /etc/xdg/cardigan/definitions/, /app/Jackett/Definitions 
+2018-05-14 10:18:58.2078 Info Loading Cardigann definition /app/Jackett/Definitions/1337x.yml 
+2018-05-14 10:18:58.2862 Info Loading Cardigann definition /app/Jackett/Definitions/2fast4you.yml 
+2018-05-14 10:18:58.3030 Info Loading Cardigann definition /app/Jackett/Definitions/3dtorrents.yml 
+2018-05-14 10:18:58.3142 Info Loading Cardigann definition /app/Jackett/Definitions/Bittorrentfiles.yml 
+2018-05-14 10:18:58.3295 Info Loading Cardigann definition /app/Jackett/Definitions/acidlounge.yml 
+2018-05-14 10:18:58.3485 Info Loading Cardigann definition /app/Jackett/Definitions/anidex.yml 
+2018-05-14 10:18:58.3648 Info Loading Cardigann definition /app/Jackett/Definitions/anirena.yml 
+2018-05-14 10:18:58.3805 Info Loading Cardigann definition /app/Jackett/Definitions/aox.yml 
+2018-05-14 10:18:58.3973 Info Loading Cardigann definition /app/Jackett/Definitions/arabafenice.yml 
+2018-05-14 10:18:58.4202 Info Loading Cardigann definition /app/Jackett/Definitions/archetorrent.yml 
+2018-05-14 10:18:58.4417 Info Loading Cardigann definition /app/Jackett/Definitions/asiandvdclub.yml 
+2018-05-14 10:18:58.4592 Info Loading Cardigann definition /app/Jackett/Definitions/ast4u.yml 
+2018-05-14 10:18:58.4756 Info Loading Cardigann definition /app/Jackett/Definitions/audiobooktorrents.yml 
+2018-05-14 10:18:58.4879 Info Loading Cardigann definition /app/Jackett/Definitions/awesomehd.yml 
+2018-05-14 10:18:58.4979 Info Loading Cardigann definition /app/Jackett/Definitions/b2s-share.yml 
+2018-05-14 10:18:58.5296 Info Loading Cardigann definition /app/Jackett/Definitions/backups.yml 
+2018-05-14 10:18:58.5528 Info Loading Cardigann definition /app/Jackett/Definitions/bigtorrent.yml 
+2018-05-14 10:18:58.5661 Info Loading Cardigann definition /app/Jackett/Definitions/bithorlo.yml 
+2018-05-14 10:18:58.5829 Info Loading Cardigann definition /app/Jackett/Definitions/bithumen.yml 
+2018-05-14 10:18:58.6015 Info Loading Cardigann definition /app/Jackett/Definitions/bitme.yml 
+2018-05-14 10:18:58.6168 Info Loading Cardigann definition /app/Jackett/Definitions/bitspyder.yml 
+2018-05-14 10:18:58.6400 Info Loading Cardigann definition /app/Jackett/Definitions/bluebird.yml 
+2018-05-14 10:18:58.6504 Info Loading Cardigann definition /app/Jackett/Definitions/blutopia.yml 
+2018-05-14 10:18:58.6700 Info Loading Cardigann definition /app/Jackett/Definitions/bt-scene.yml 
+2018-05-14 10:18:58.6838 Info Loading Cardigann definition /app/Jackett/Definitions/btbit.yml 
+2018-05-14 10:18:58.7040 Info Loading Cardigann definition /app/Jackett/Definitions/btdb.yml 
+2018-05-14 10:18:58.7162 Info Loading Cardigann definition /app/Jackett/Definitions/btnext.yml 
+2018-05-14 10:18:58.7414 Info Loading Cardigann definition /app/Jackett/Definitions/btworld.yml 
+2018-05-14 10:18:58.7570 Info Loading Cardigann definition /app/Jackett/Definitions/carpathians.yml 
+2018-05-14 10:18:58.7679 Info Loading Cardigann definition /app/Jackett/Definitions/ccfbits.yml 
+2018-05-14 10:18:58.7880 Info Loading Cardigann definition /app/Jackett/Definitions/chdbits.yml 
+2018-05-14 10:18:58.7969 Info Loading Cardigann definition /app/Jackett/Definitions/cinemageddon.yml 
+2018-05-14 10:18:58.8151 Info Loading Cardigann definition /app/Jackett/Definitions/cinematik.yml 
+2018-05-14 10:18:58.8313 Info Loading Cardigann definition /app/Jackett/Definitions/classix.yml 
+2018-05-14 10:18:58.8470 Info Loading Cardigann definition /app/Jackett/Definitions/cpabien.yml 
+2018-05-14 10:18:58.8633 Info Loading Cardigann definition /app/Jackett/Definitions/cztorrent.yml 
+2018-05-14 10:18:58.8828 Info Loading Cardigann definition /app/Jackett/Definitions/datascene.yml 
+2018-05-14 10:18:58.9017 Info Loading Cardigann definition /app/Jackett/Definitions/deildu.yml 
+2018-05-14 10:18:58.9189 Info Loading Cardigann definition /app/Jackett/Definitions/diablotorrent.yml 
+2018-05-14 10:18:58.9324 Info Loading Cardigann definition /app/Jackett/Definitions/downloadville.yml 
+2018-05-14 10:18:58.9623 Info Loading Cardigann definition /app/Jackett/Definitions/dragonworldreloaded.yml 
+2018-05-14 10:18:58.9797 Info Loading Cardigann definition /app/Jackett/Definitions/dreamteam.yml 
+2018-05-14 10:18:59.0128 Info Loading Cardigann definition /app/Jackett/Definitions/elitehd.yml 
+2018-05-14 10:18:59.0273 Info Loading Cardigann definition /app/Jackett/Definitions/elittracker.yml 
+2018-05-14 10:18:59.0427 Info Loading Cardigann definition /app/Jackett/Definitions/empornium.yml 
+2018-05-14 10:18:59.0615 Info Loading Cardigann definition /app/Jackett/Definitions/eotforum.yml 
+2018-05-14 10:18:59.0808 Info Loading Cardigann definition /app/Jackett/Definitions/estone.yml 
+2018-05-14 10:18:59.0969 Info Loading Cardigann definition /app/Jackett/Definitions/ethor.yml 
+2018-05-14 10:18:59.1173 Info Loading Cardigann definition /app/Jackett/Definitions/ettv.yml 
+2018-05-14 10:18:59.1410 Info Loading Cardigann definition /app/Jackett/Definitions/extratorrent-ag.yml 
+2018-05-14 10:18:59.2259 Info Loading Cardigann definition /app/Jackett/Definitions/eztv.yml 
+2018-05-14 10:18:59.2448 Info Loading Cardigann definition /app/Jackett/Definitions/fanoin.yml 
+2018-05-14 10:18:59.2647 Info Loading Cardigann definition /app/Jackett/Definitions/femdomcult.yml 
+2018-05-14 10:18:59.2917 Info Loading Cardigann definition /app/Jackett/Definitions/freedomhd.yml 
+2018-05-14 10:18:59.3127 Info Loading Cardigann definition /app/Jackett/Definitions/frozenlayer.yml 
+2018-05-14 10:18:59.4055 Info Loading Cardigann definition /app/Jackett/Definitions/fullmixmusic.yml 
+2018-05-14 10:18:59.4322 Info Loading Cardigann definition /app/Jackett/Definitions/funkytorrents.yml 
+2018-05-14 10:18:59.4505 Info Loading Cardigann definition /app/Jackett/Definitions/gay-torrents.yml 
+2018-05-14 10:18:59.4776 Info Loading Cardigann definition /app/Jackett/Definitions/gaytorrentru.yml 
+2018-05-14 10:18:59.4952 Info Loading Cardigann definition /app/Jackett/Definitions/gfxnews.yml 
+2018-05-14 10:18:59.5314 Info Loading Cardigann definition /app/Jackett/Definitions/gfxpeers.yml 
+2018-05-14 10:18:59.5469 Info Loading Cardigann definition /app/Jackett/Definitions/gigatorrents.yml 
+2018-05-14 10:18:59.5623 Info Loading Cardigann definition /app/Jackett/Definitions/gktorrent.yml 
+2018-05-14 10:18:59.5749 Info Loading Cardigann definition /app/Jackett/Definitions/gods.yml 
+2018-05-14 10:18:59.5940 Info Loading Cardigann definition /app/Jackett/Definitions/greekteam.yml 
+2018-05-14 10:18:59.6131 Info Loading Cardigann definition /app/Jackett/Definitions/hachede.yml 
+2018-05-14 10:18:59.6342 Info Loading Cardigann definition /app/Jackett/Definitions/hdbits.yml 
+2018-05-14 10:18:59.6485 Info Loading Cardigann definition /app/Jackett/Definitions/hdbitscom.yml 
+2018-05-14 10:18:59.6602 Info Loading Cardigann definition /app/Jackett/Definitions/hdchina.yml 
+2018-05-14 10:18:59.6772 Info Loading Cardigann definition /app/Jackett/Definitions/hdcity.yml 
+2018-05-14 10:18:59.7134 Info Loading Cardigann definition /app/Jackett/Definitions/hdhome.yml 
+2018-05-14 10:18:59.7303 Info Loading Cardigann definition /app/Jackett/Definitions/hdme.yml 
+2018-05-14 10:18:59.7476 Info Loading Cardigann definition /app/Jackett/Definitions/hdsky.yml 
+2018-05-14 10:18:59.7680 Info Loading Cardigann definition /app/Jackett/Definitions/hdtorrentsit.yml 
+2018-05-14 10:18:59.7830 Info Loading Cardigann definition /app/Jackett/Definitions/hon3yhd.yml 
+2018-05-14 10:18:59.8007 Info Loading Cardigann definition /app/Jackett/Definitions/horriblesubs.yml 
+2018-05-14 10:18:59.8158 Info Loading Cardigann definition /app/Jackett/Definitions/hyperay.yml 
+2018-05-14 10:18:59.8311 Info Loading Cardigann definition /app/Jackett/Definitions/icetorrent.yml 
+2018-05-14 10:18:59.8530 Info Loading Cardigann definition /app/Jackett/Definitions/idope.yml 
+2018-05-14 10:18:59.8677 Info Loading Cardigann definition /app/Jackett/Definitions/ilcorsaronero.yml 
+2018-05-14 10:18:59.8856 Info Loading Cardigann definition /app/Jackett/Definitions/iloveclassics.yml 
+2018-05-14 10:18:59.9015 Info Loading Cardigann definition /app/Jackett/Definitions/inperil.yml 
+2018-05-14 10:18:59.9237 Info Loading Cardigann definition /app/Jackett/Definitions/insanetracker.yml 
+2018-05-14 10:18:59.9428 Info Loading Cardigann definition /app/Jackett/Definitions/isohunt2.yml 
+2018-05-14 10:18:59.9526 Info Loading Cardigann definition /app/Jackett/Definitions/jpopsuki.yml 
+2018-05-14 10:18:59.9677 Info Loading Cardigann definition /app/Jackett/Definitions/kapaki.yml 
+2018-05-14 10:18:59.9839 Info Loading Cardigann definition /app/Jackett/Definitions/karagarga.yml 
+2018-05-14 10:18:59.9961 Info Loading Cardigann definition /app/Jackett/Definitions/kickasstorrent-kathow.yml 
+2018-05-14 10:19:00.0271 Info Loading Cardigann definition /app/Jackett/Definitions/kickasstorrent.yml 
+2018-05-14 10:19:00.0537 Info Loading Cardigann definition /app/Jackett/Definitions/kinozal.yml 
+2018-05-14 10:19:00.0754 Info Loading Cardigann definition /app/Jackett/Definitions/limetorrents.yml 
+2018-05-14 10:19:00.0864 Info Loading Cardigann definition /app/Jackett/Definitions/linkomanija.yml 
+2018-05-14 10:19:00.1048 Info Loading Cardigann definition /app/Jackett/Definitions/losslessclub.yml 
+2018-05-14 10:19:00.1154 Info Loading Cardigann definition /app/Jackett/Definitions/magico.yml 
+2018-05-14 10:19:00.1347 Info Loading Cardigann definition /app/Jackett/Definitions/magnetdl.yml 
+2018-05-14 10:19:00.1453 Info Loading Cardigann definition /app/Jackett/Definitions/majomparade.yml 
+2018-05-14 10:19:00.1643 Info Loading Cardigann definition /app/Jackett/Definitions/manicomioshare.yml 
+2018-05-14 10:19:00.1951 Info Loading Cardigann definition /app/Jackett/Definitions/megabliz.yml 
+2018-05-14 10:19:00.2139 Info Loading Cardigann definition /app/Jackett/Definitions/metaltracker.yml 
+2018-05-14 10:19:00.2285 Info Loading Cardigann definition /app/Jackett/Definitions/mononokebt.yml 
+2018-05-14 10:19:00.2423 Info Loading Cardigann definition /app/Jackett/Definitions/mteamtp.yml 
+2018-05-14 10:19:00.2599 Info Loading Cardigann definition /app/Jackett/Definitions/mvgroupforum.yml 
+2018-05-14 10:19:00.2774 Info Loading Cardigann definition /app/Jackett/Definitions/mvgroupmain.yml 
+2018-05-14 10:19:00.2953 Info Loading Cardigann definition /app/Jackett/Definitions/myspleen.yml 
+2018-05-14 10:19:00.3177 Info Loading Cardigann definition /app/Jackett/Definitions/nethd.yml 
+2018-05-14 10:19:00.3369 Info Loading Cardigann definition /app/Jackett/Definitions/newretro.yml 
+2018-05-14 10:19:00.3522 Info Loading Cardigann definition /app/Jackett/Definitions/newstudio.yml 
+2018-05-14 10:19:00.3687 Info Loading Cardigann definition /app/Jackett/Definitions/nexttorrent.yml 
+2018-05-14 10:19:00.3832 Info Loading Cardigann definition /app/Jackett/Definitions/nnm-club.yml 
+2018-05-14 10:19:00.4505 Info Loading Cardigann definition /app/Jackett/Definitions/nyaa-pantsu.yml 
+2018-05-14 10:19:00.4636 Info Loading Cardigann definition /app/Jackett/Definitions/nyaasi.yml 
+2018-05-14 10:19:00.4764 Info Loading Cardigann definition /app/Jackett/Definitions/nyoo.yml 
+2018-05-14 10:19:00.4885 Info Loading Cardigann definition /app/Jackett/Definitions/ourbits.yml 
+2018-05-14 10:19:00.5079 Info Loading Cardigann definition /app/Jackett/Definitions/passionetorrent.yml 
+2018-05-14 10:19:00.5259 Info Loading Cardigann definition /app/Jackett/Definitions/polishsource.yml 
+2018-05-14 10:19:00.5413 Info Loading Cardigann definition /app/Jackett/Definitions/ptfiles.yml 
+2018-05-14 10:19:00.5577 Info Loading Cardigann definition /app/Jackett/Definitions/puntotorrent.yml 
+2018-05-14 10:19:00.5762 Info Loading Cardigann definition /app/Jackett/Definitions/racing4everyone.yml 
+2018-05-14 10:19:00.5932 Info Loading Cardigann definition /app/Jackett/Definitions/rodvd.yml 
+2018-05-14 10:19:00.6103 Info Loading Cardigann definition /app/Jackett/Definitions/rutor.yml 
+2018-05-14 10:19:00.6301 Info Loading Cardigann definition /app/Jackett/Definitions/scenefz.yml 
+2018-05-14 10:19:00.6487 Info Loading Cardigann definition /app/Jackett/Definitions/scenereactor.yml 
+2018-05-14 10:19:00.6666 Info Loading Cardigann definition /app/Jackett/Definitions/sdbits.yml 
+2018-05-14 10:19:00.6806 Info Loading Cardigann definition /app/Jackett/Definitions/shareisland.yml 
+2018-05-14 10:19:00.7151 Info Loading Cardigann definition /app/Jackett/Definitions/sharespacedb.yml 
+2018-05-14 10:19:00.7390 Info Loading Cardigann definition /app/Jackett/Definitions/shellife.yml 
+2018-05-14 10:19:00.7503 Info Loading Cardigann definition /app/Jackett/Definitions/sktorrent.yml 
+2018-05-14 10:19:00.7702 Info Loading Cardigann definition /app/Jackett/Definitions/speed-share.yml 
+2018-05-14 10:19:00.8028 Info Loading Cardigann definition /app/Jackett/Definitions/speedtorrentreloaded.yml 
+2018-05-14 10:19:00.8156 Info Loading Cardigann definition /app/Jackett/Definitions/sporthd.yml 
+2018-05-14 10:19:00.8672 Info Loading Cardigann definition /app/Jackett/Definitions/sportscult.yml 
+2018-05-14 10:19:00.8783 Info Loading Cardigann definition /app/Jackett/Definitions/sukebei-pantsu.yml 
+2018-05-14 10:19:00.8883 Info Loading Cardigann definition /app/Jackett/Definitions/sukebeinyaasi.yml 
+2018-05-14 10:19:00.9004 Info Loading Cardigann definition /app/Jackett/Definitions/tasmanit.yml 
+2018-05-14 10:19:00.9207 Info Loading Cardigann definition /app/Jackett/Definitions/tbplus.yml 
+2018-05-14 10:19:00.9493 Info Loading Cardigann definition /app/Jackett/Definitions/tehconnection.yml 
+2018-05-14 10:19:00.9661 Info Loading Cardigann definition /app/Jackett/Definitions/tenyardtracker.yml 
+2018-05-14 10:19:00.9793 Info Loading Cardigann definition /app/Jackett/Definitions/theempire.yml 
+2018-05-14 10:19:00.9979 Info Loading Cardigann definition /app/Jackett/Definitions/thegeeks.yml 
+2018-05-14 10:19:01.0247 Info Loading Cardigann definition /app/Jackett/Definitions/thehorrorcharnel.yml 
+2018-05-14 10:19:01.0428 Info Loading Cardigann definition /app/Jackett/Definitions/theoccult.yml 
+2018-05-14 10:19:01.0608 Info Loading Cardigann definition /app/Jackett/Definitions/thepiratebay.yml 
+2018-05-14 10:19:01.0778 Info Loading Cardigann definition /app/Jackett/Definitions/theplace.yml 
+2018-05-14 10:19:01.0946 Info Loading Cardigann definition /app/Jackett/Definitions/theshinning.yml 
+2018-05-14 10:19:01.1194 Info Loading Cardigann definition /app/Jackett/Definitions/theshow.yml 
+2018-05-14 10:19:01.1415 Info Loading Cardigann definition /app/Jackett/Definitions/thetorrents.yml 
+2018-05-14 10:19:01.1932 Info Loading Cardigann definition /app/Jackett/Definitions/thevault.yml 
+2018-05-14 10:19:01.2069 Info Loading Cardigann definition /app/Jackett/Definitions/tntvillage.yml 
+2018-05-14 10:19:01.2189 Info Loading Cardigann definition /app/Jackett/Definitions/tokyotosho.yml 
+2018-05-14 10:19:01.2307 Info Loading Cardigann definition /app/Jackett/Definitions/torlock.yml 
+2018-05-14 10:19:01.2592 Info Loading Cardigann definition /app/Jackett/Definitions/torrent9.yml 
+2018-05-14 10:19:01.2790 Info Loading Cardigann definition /app/Jackett/Definitions/torrentbd.yml 
+2018-05-14 10:19:01.3021 Info Loading Cardigann definition /app/Jackett/Definitions/torrentccf.yml 
+2018-05-14 10:19:01.3250 Info Loading Cardigann definition /app/Jackett/Definitions/torrentdownloads.yml 
+2018-05-14 10:19:01.3362 Info Loading Cardigann definition /app/Jackett/Definitions/torrenthr.yml 
+2018-05-14 10:19:01.3482 Info Loading Cardigann definition /app/Jackett/Definitions/torrenting.yml 
+2018-05-14 10:19:01.3653 Info Loading Cardigann definition /app/Jackett/Definitions/torrentkim.yml 
+2018-05-14 10:19:01.3777 Info Loading Cardigann definition /app/Jackett/Definitions/torrentland.yml 
+2018-05-14 10:19:01.3962 Info Loading Cardigann definition /app/Jackett/Definitions/torrentlt.yml 
+2018-05-14 10:19:01.4166 Info Loading Cardigann definition /app/Jackett/Definitions/torrentsectorcrew.yml 
+2018-05-14 10:19:01.4357 Info Loading Cardigann definition /app/Jackett/Definitions/torrentseeds.yml 
+2018-05-14 10:19:01.4607 Info Loading Cardigann definition /app/Jackett/Definitions/torrentsmd.yml 
+2018-05-14 10:19:01.4752 Info Loading Cardigann definition /app/Jackett/Definitions/torrentwtf.yml 
+2018-05-14 10:19:01.5007 Info Loading Cardigann definition /app/Jackett/Definitions/torrentz2.yml 
+2018-05-14 10:19:01.5188 Info Loading Cardigann definition /app/Jackett/Definitions/torviet.yml 
+2018-05-14 10:19:01.5349 Info Loading Cardigann definition /app/Jackett/Definitions/totheglory.yml 
+2018-05-14 10:19:01.5499 Info Loading Cardigann definition /app/Jackett/Definitions/trancetraffic.yml 
+2018-05-14 10:19:01.5669 Info Loading Cardigann definition /app/Jackett/Definitions/trezzor.yml 
+2018-05-14 10:19:01.5872 Info Loading Cardigann definition /app/Jackett/Definitions/uhdbits.yml 
+2018-05-14 10:19:01.6042 Info Loading Cardigann definition /app/Jackett/Definitions/ultimategamerclub.yml 
+2018-05-14 10:19:01.6221 Info Loading Cardigann definition /app/Jackett/Definitions/unionfansub.yml 
+2018-05-14 10:19:01.6333 Info Loading Cardigann definition /app/Jackett/Definitions/waffles.yml 
+2018-05-14 10:19:01.6538 Info Loading Cardigann definition /app/Jackett/Definitions/worldofp2p.yml 
+2018-05-14 10:19:01.6789 Info Loading Cardigann definition /app/Jackett/Definitions/worldwidetorrents.yml 
+2018-05-14 10:19:01.7029 Info Loading Cardigann definition /app/Jackett/Definitions/xbytes2.yml 
+2018-05-14 10:19:01.7211 Info Loading Cardigann definition /app/Jackett/Definitions/xtremezone.yml 
+2018-05-14 10:19:01.7386 Info Loading Cardigann definition /app/Jackett/Definitions/yggtorrent.yml 
+2018-05-14 10:19:01.7591 Info Loading Cardigann definition /app/Jackett/Definitions/yourexotic.yml 
+2018-05-14 10:19:01.7697 Info Loading Cardigann definition /app/Jackett/Definitions/zamundanet.yml 
+2018-05-14 10:19:01.7819 Info Loading Cardigann definition /app/Jackett/Definitions/zelkaorg.yml 
+2018-05-14 10:19:01.7962 Info Loading Cardigann definition /app/Jackett/Definitions/zooqle.yml 
+2018-05-14 10:19:01.8106 Info Loading Cardigann definition /app/Jackett/Definitions/ztracker.yml 
+2018-05-14 10:19:01.8287 Info Adding aggregate indexer 
+2018-05-14 10:19:01.8523 Info Starting web server at http://*:9117/ 

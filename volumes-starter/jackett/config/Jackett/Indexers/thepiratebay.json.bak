@@ -1,0 +1,31 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://thepiratebay.org/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": ""
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": ""
+  },
+  {
+    "id": "orderresults",
+    "type": "inputselect",
+    "name": "Order results",
+    "value": "99",
+    "options": {
+      "99": "Default",
+      "8": "Seeders",
+      "3": "Time"
+    }
+  }
+]

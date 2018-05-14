@@ -46,8 +46,8 @@ services:
           # - emby-share2:/mnt/share2 # To mount a second share
         environment:
           UID: "1000" # The UID to run emby as (default: 2)
-          GID: "100" # The GID to run emby as (default 2)
-          GIDLIST: "100" # A comma-separated list of additional GIDs to run emby as (default: 2)
+          GID: "1001" # The GID to run emby as (default 2)
+          GIDLIST: "1001" # A comma-separated list of additional GIDs to run emby as (default: 2)
         # depends_on:
         #     - db
     # https://hub.docker.com/r/linuxserver/sonarr/

@@ -1,0 +1,86 @@
+(N) 2018-05-13T22:10:50 - qBittorrent v4.0.4 started
+(I) 2018-05-13T22:10:50 - qBittorrent is trying to listen on any interface port: 6881
+(N) 2018-05-13T22:10:50 - Peer ID: -qB4040-
+(N) 2018-05-13T22:10:50 - HTTP User-Agent is 'qBittorrent/4.0.4'
+(I) 2018-05-13T22:10:50 - DHT support [ON]
+(I) 2018-05-13T22:10:50 - Local Peer Discovery support [ON]
+(I) 2018-05-13T22:10:50 - PeX support [ON]
+(I) 2018-05-13T22:10:50 - Anonymous mode [OFF]
+(I) 2018-05-13T22:10:50 - Encryption support [ON]
+(I) 2018-05-13T22:10:50 - Embedded Tracker [OFF]
+(W) 2018-05-13T22:10:50 - Couldn't load GeoIP database. Reason: No such file or directory
+(N) 2018-05-13T22:10:50 - Web UI: Now listening on IP: *, port: 8088
+(I) 2018-05-13T22:10:50 - qBittorrent is successfully listening on interface :: port: TCP/6881
+(I) 2018-05-13T22:10:50 - qBittorrent is successfully listening on interface 0.0.0.0 port: TCP/6881
+(I) 2018-05-13T22:10:50 - qBittorrent is successfully listening on interface 0.0.0.0 port: UDP/6881
+(I) 2018-05-13T22:10:51 - External IP: 179.34.204.45
+(I) 2018-05-13T22:10:51 - GeoIP database loaded. Type: GeoLite2-Country. Build time: Tue May 1 13:47:28 2018.
+(I) 2018-05-13T22:10:51 - Successfully updated GeoIP database.
+(I) 2018-05-13T22:11:33 - UPnP / NAT-PMP support [OFF]
+(N) 2018-05-13T22:13:08 - qBittorrent v4.0.4 started
+(I) 2018-05-13T22:13:08 - qBittorrent is trying to listen on any interface port: 6881
+(N) 2018-05-13T22:13:08 - Peer ID: -qB4040-
+(N) 2018-05-13T22:13:08 - HTTP User-Agent is 'qBittorrent/4.0.4'
+(I) 2018-05-13T22:13:08 - DHT support [ON]
+(I) 2018-05-13T22:13:08 - Local Peer Discovery support [ON]
+(I) 2018-05-13T22:13:08 - PeX support [ON]
+(I) 2018-05-13T22:13:08 - Anonymous mode [OFF]
+(I) 2018-05-13T22:13:08 - Encryption support [ON]
+(I) 2018-05-13T22:13:08 - Embedded Tracker [OFF]
+(I) 2018-05-13T22:13:08 - GeoIP database loaded. Type: GeoLite2-Country. Build time: Tue May 1 13:47:28 2018.
+(N) 2018-05-13T22:13:08 - Web UI: Now listening on IP: *, port: 8088
+(I) 2018-05-13T22:13:08 - qBittorrent is successfully listening on interface :: port: TCP/6881
+(I) 2018-05-13T22:13:08 - qBittorrent is successfully listening on interface 0.0.0.0 port: TCP/6881
+(I) 2018-05-13T22:13:08 - qBittorrent is successfully listening on interface 0.0.0.0 port: UDP/6881
+(I) 2018-05-13T22:13:08 - External IP: 179.34.204.45
+(I) 2018-05-13T22:33:22 - UPnP / NAT-PMP support [OFF]
+(N) 2018-05-13T22:35:57 - qBittorrent v4.0.4 started
+(I) 2018-05-13T22:35:57 - qBittorrent is trying to listen on any interface port: 6881
+(N) 2018-05-13T22:35:57 - Peer ID: -qB4040-
+(N) 2018-05-13T22:35:57 - HTTP User-Agent is 'qBittorrent/4.0.4'
+(I) 2018-05-13T22:35:57 - DHT support [ON]
+(I) 2018-05-13T22:35:57 - Local Peer Discovery support [ON]
+(I) 2018-05-13T22:35:57 - PeX support [ON]
+(I) 2018-05-13T22:35:57 - Anonymous mode [OFF]
+(I) 2018-05-13T22:35:57 - Encryption support [ON]
+(I) 2018-05-13T22:35:57 - Embedded Tracker [OFF]
+(I) 2018-05-13T22:35:57 - GeoIP database loaded. Type: GeoLite2-Country. Build time: Tue May 1 13:47:28 2018.
+(N) 2018-05-13T22:35:57 - Web UI: Now listening on IP: *, port: 8088
+(I) 2018-05-13T22:35:57 - qBittorrent is successfully listening on interface :: port: TCP/6881
+(I) 2018-05-13T22:35:57 - qBittorrent is successfully listening on interface 0.0.0.0 port: TCP/6881
+(I) 2018-05-13T22:35:57 - qBittorrent is successfully listening on interface 0.0.0.0 port: UDP/6881
+(I) 2018-05-13T22:35:57 - External IP: 179.34.204.45
+(I) 2018-05-13T23:13:09 - UPnP / NAT-PMP support [OFF]
+(N) 2018-05-13T23:13:41 - qBittorrent v4.0.4 started
+(I) 2018-05-13T23:13:41 - qBittorrent is trying to listen on any interface port: 6881
+(N) 2018-05-13T23:13:41 - Peer ID: -qB4040-
+(N) 2018-05-13T23:13:41 - HTTP User-Agent is 'qBittorrent/4.0.4'
+(I) 2018-05-13T23:13:41 - DHT support [ON]
+(I) 2018-05-13T23:13:41 - Local Peer Discovery support [ON]
+(I) 2018-05-13T23:13:41 - PeX support [ON]
+(I) 2018-05-13T23:13:41 - Anonymous mode [OFF]
+(I) 2018-05-13T23:13:41 - Encryption support [ON]
+(I) 2018-05-13T23:13:41 - Embedded Tracker [OFF]
+(I) 2018-05-13T23:13:42 - GeoIP database loaded. Type: GeoLite2-Country. Build time: Tue May 1 13:47:28 2018.
+(N) 2018-05-13T23:13:42 - Web UI: Now listening on IP: *, port: 8088
+(I) 2018-05-13T23:13:42 - qBittorrent is successfully listening on interface :: port: TCP/6881
+(I) 2018-05-13T23:13:42 - qBittorrent is successfully listening on interface 0.0.0.0 port: TCP/6881
+(I) 2018-05-13T23:13:42 - qBittorrent is successfully listening on interface 0.0.0.0 port: UDP/6881
+(I) 2018-05-13T23:13:42 - External IP: 179.34.204.45
+(N) 2018-05-14T10:18:46 - qBittorrent v4.0.4 started
+(I) 2018-05-14T10:18:46 - qBittorrent is trying to listen on any interface port: 6881
+(N) 2018-05-14T10:18:46 - Peer ID: -qB4040-
+(N) 2018-05-14T10:18:46 - HTTP User-Agent is 'qBittorrent/4.0.4'
+(I) 2018-05-14T10:18:46 - DHT support [ON]
+(I) 2018-05-14T10:18:46 - Local Peer Discovery support [ON]
+(I) 2018-05-14T10:18:46 - PeX support [ON]
+(I) 2018-05-14T10:18:46 - Anonymous mode [OFF]
+(I) 2018-05-14T10:18:46 - Encryption support [ON]
+(I) 2018-05-14T10:18:46 - Embedded Tracker [OFF]
+(I) 2018-05-14T10:18:46 - GeoIP database loaded. Type: GeoLite2-Country. Build time: Tue May 1 13:47:28 2018.
+(N) 2018-05-14T10:18:46 - Web UI: Now listening on IP: *, port: 8088
+(I) 2018-05-14T10:18:46 - qBittorrent is successfully listening on interface :: port: TCP/6881
+(I) 2018-05-14T10:18:46 - qBittorrent is successfully listening on interface 0.0.0.0 port: TCP/6881
+(I) 2018-05-14T10:18:46 - qBittorrent is successfully listening on interface 0.0.0.0 port: UDP/6881
+(I) 2018-05-14T10:18:46 - External IP: 179.34.204.45
+(I) 2018-05-14T10:19:23 - UPnP / NAT-PMP support [OFF]

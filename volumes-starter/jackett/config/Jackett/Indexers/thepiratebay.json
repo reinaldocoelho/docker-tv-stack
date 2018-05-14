@@ -1,0 +1,31 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://thepiratebay.org/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "__cfduid=d3a85423e5692f7072217d3b9798043431526302961; PHPSESSID=6eb10558ef4a7fcf915fc0adae02bea4; language=en_EN"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": ""
+  },
+  {
+    "id": "orderresults",
+    "type": "inputselect",
+    "name": "Order results",
+    "value": "99",
+    "options": {
+      "99": "Default",
+      "8": "Seeders",
+      "3": "Time"
+    }
+  }
+]

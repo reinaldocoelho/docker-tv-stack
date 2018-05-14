@@ -1,0 +1,283 @@
+2018-05-14 02:13:42.236 Info Main: Application path: /system/EmbyServer.dll
+2018-05-14 02:13:42.262 Info Main: Emby
+	Command line: /system/EmbyServer.dll -programdata /config -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+	Operating system: Unix 4.9.87.0
+	64-Bit OS: True
+	64-Bit Process: True
+	User Interactive: True
+	Processor count: 2
+	Program data path: /config
+	Application directory: /system
+2018-05-14 02:13:42.613 Info App: Application version: 3.4.0.0
+2018-05-14 02:13:42.616 Info App: Loading assemblies
+2018-05-14 02:13:42.677 Info App: File /config/plugins/OpenSubtitles.dll has version 1.0.1.0
+2018-05-14 02:13:42.678 Info App: File /system/plugins/OpenSubtitles.dll has version 1.0.1.0
+2018-05-14 02:13:42.686 Info App: File /config/plugins/Emby.Server.CinemaMode.dll has version 1.0.0.0
+2018-05-14 02:13:42.686 Info App: File /system/plugins/Emby.Server.CinemaMode.dll has version 1.0.0.0
+2018-05-14 02:13:42.689 Info App: File /config/plugins/IMVDb.dll has version 1.0.0.0
+2018-05-14 02:13:42.690 Info App: File /system/plugins/IMVDb.dll has version 1.0.0.0
+2018-05-14 02:13:42.743 Info App: Loading Emby.Server.CinemaMode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Server.CinemaMode.dll
+2018-05-14 02:13:42.744 Info App: Loading IMVDb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from /config/plugins/IMVDb.dll
+2018-05-14 02:13:42.744 Info App: Loading OpenSubtitles, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null from /config/plugins/OpenSubtitles.dll
+2018-05-14 02:13:42.744 Info App: Loading MediaBrowser.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:42.744 Info App: Loading MediaBrowser.WebDashboard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:42.744 Info App: Loading MediaBrowser.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:42.744 Info App: Loading MediaBrowser.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:42.744 Info App: Loading MediaBrowser.Controller, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:42.744 Info App: Loading MediaBrowser.Providers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:42.744 Info App: Loading Emby.Photos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:42.744 Info App: Loading Emby.Server.Implementations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:42.744 Info App: Loading Emby.Server.MediaEncoding, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:42.744 Info App: Loading Emby.Dlna, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:42.744 Info App: Loading MediaBrowser.LocalMetadata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:42.744 Info App: Loading MediaBrowser.XbmcMetadata, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:42.744 Info App: Loading Emby.Server.Connect, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:42.744 Info App: Loading Emby.Server.Sync, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2018-05-14 02:13:43.161 Info SqliteUserRepository: Sqlite version: 3.23.1
+2018-05-14 02:13:43.163 Info SqliteUserRepository: Sqlite compiler options: COMPILER=gcc-6.3.0,ENABLE_COLUMN_METADATA,ENABLE_DBSTAT_VTAB,ENABLE_FTS3,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS3_TOKENIZER,ENABLE_FTS5,ENABLE_JSON1,ENABLE_PREUPDATE_HOOK,ENABLE_RTREE,ENABLE_SESSION,ENABLE_UNLOCK_NOTIFY,ENABLE_UPDATE_DELETE_LIMIT,LIKE_DOESNT_MATCH_BLOBS,MAX_SCHEMA_RETRY=25,MAX_VARIABLE_NUMBER=250000,OMIT_LOOKASIDE,SECURE_DELETE,THREADSAFE=1
+2018-05-14 02:13:43.276 Info SqliteUserRepository: Default journal_mode for /config/data/users.db is wal
+2018-05-14 02:13:43.282 Info SqliteUserRepository: PRAGMA synchronous=1
+2018-05-14 02:13:43.326 Info AuthenticationRepository: Default journal_mode for /config/data/authentication.db is wal
+2018-05-14 02:13:43.326 Info AuthenticationRepository: PRAGMA synchronous=1
+2018-05-14 02:13:43.570 Info DeviceManager: Default journal_mode for /config/data/devices.db is wal
+2018-05-14 02:13:43.570 Info DeviceManager: PRAGMA synchronous=1
+2018-05-14 02:13:43.638 Info ActivityRepository: Default journal_mode for /config/data/activitylog.db is wal
+2018-05-14 02:13:43.639 Info ActivityRepository: PRAGMA synchronous=1
+2018-05-14 02:13:43.690 Info SqliteDisplayPreferencesRepository: Default journal_mode for /config/data/displaypreferences.db is wal
+2018-05-14 02:13:43.691 Info SqliteDisplayPreferencesRepository: PRAGMA synchronous=1
+2018-05-14 02:13:43.721 Info SqliteItemRepository: Default journal_mode for /config/data/library.db is wal
+2018-05-14 02:13:43.722 Info SqliteItemRepository: PRAGMA synchronous=1
+2018-05-14 02:13:43.756 Info SqliteNotificationsRepository: Default journal_mode for /config/data/notifications.db is wal
+2018-05-14 02:13:43.757 Info SqliteNotificationsRepository: PRAGMA synchronous=1
+2018-05-14 02:13:44.636 Info HttpServer: Calling ServiceStack AppHost.Init
+2018-05-14 02:13:45.487 Info ServerManager: Loading Http Server
+2018-05-14 02:13:45.495 Info HttpServer: Adding HttpListener prefix http://+:8096/
+2018-05-14 02:13:45.496 Info HttpServer: Adding HttpListener prefix https://+:8920/
+2018-05-14 02:13:45.905 Info Skia: SkiaSharp version: 1.58.0.0
+2018-05-14 02:13:46.051 Info TaskManager: Daily trigger for Chapter image extraction set to fire at 5/15/18 2:00:00 AM, which is 1426.23247404167 minutes from now.
+2018-05-14 02:13:46.125 Info TaskManager: Daily trigger for Rotate log file set to fire at 5/15/18 12:00:00 AM, which is 1306.231251505 minutes from now.
+2018-05-14 02:13:46.167 Info MediaEncoder: FFMpeg: /bin/ffmpeg
+2018-05-14 02:13:46.168 Info MediaEncoder: FFProbe: /bin/ffprobe
+2018-05-14 02:13:46.169 Info MediaEncoder: Validating media encoder at /bin/ffmpeg
+2018-05-14 02:13:46.182 Info MediaEncoder: Running /bin/ffmpeg -decoders
+2018-05-14 02:13:46.282 Info MediaEncoder: Decoder available: mpeg2video
+2018-05-14 02:13:46.291 Info MediaEncoder: Decoder available: h264_cuvid
+2018-05-14 02:13:46.292 Info MediaEncoder: Decoder available: hevc_cuvid
+2018-05-14 02:13:46.293 Info MediaEncoder: Decoder available: mpeg2_cuvid
+2018-05-14 02:13:46.293 Info MediaEncoder: Decoder available: mpeg4_cuvid
+2018-05-14 02:13:46.294 Info MediaEncoder: Decoder available: vc1_cuvid
+2018-05-14 02:13:46.294 Info MediaEncoder: Decoder available: vp8_cuvid
+2018-05-14 02:13:46.295 Info MediaEncoder: Decoder available: vp9_cuvid
+2018-05-14 02:13:46.311 Info MediaEncoder: Decoder available: ac3
+2018-05-14 02:13:46.311 Info MediaEncoder: Decoder available: aac
+2018-05-14 02:13:46.312 Info MediaEncoder: Decoder available: mp3
+2018-05-14 02:13:46.313 Info MediaEncoder: Decoder available: h264
+2018-05-14 02:13:46.313 Info MediaEncoder: Decoder available: hevc
+2018-05-14 02:13:46.333 Info MediaEncoder: Running /bin/ffmpeg -encoders
+2018-05-14 02:13:46.490 Info MediaEncoder: Encoder available: libx264
+2018-05-14 02:13:46.492 Info MediaEncoder: Encoder available: mpeg4
+2018-05-14 02:13:46.493 Info MediaEncoder: Encoder available: msmpeg4
+2018-05-14 02:13:46.506 Info MediaEncoder: Encoder available: aac
+2018-05-14 02:13:46.507 Info MediaEncoder: Encoder available: libmp3lame
+2018-05-14 02:13:46.518 Info MediaEncoder: Encoder available: libopus
+2018-05-14 02:13:46.528 Info MediaEncoder: Encoder available: libvorbis
+2018-05-14 02:13:46.529 Info MediaEncoder: Encoder available: srt
+2018-05-14 02:13:46.529 Info MediaEncoder: Encoder available: h264_nvenc
+2018-05-14 02:13:46.530 Info MediaEncoder: Encoder available: hevc_nvenc
+2018-05-14 02:13:46.546 Info MediaEncoder: Encoder available: h264_vaapi
+2018-05-14 02:13:46.546 Info MediaEncoder: Encoder available: hevc_vaapi
+2018-05-14 02:13:46.547 Info MediaEncoder: Encoder available: h264_v4l2m2m
+2018-05-14 02:13:46.547 Info MediaEncoder: Encoder available: libwebp
+2018-05-14 02:13:46.548 Info MediaEncoder: Encoder available: ac3
+2018-05-14 02:13:46.549 Info MediaEncoder: Encoder validation complete
+2018-05-14 02:13:46.578 Info App: ServerId: 3529db4808f145499726018db683948d
+2018-05-14 02:13:46.756 Info App: Starting entry point MediaBrowser.WebDashboard.ServerEntryPoint
+2018-05-14 02:13:46.758 Info App: Entry point completed: MediaBrowser.WebDashboard.ServerEntryPoint. Duration: 0.0019488 seconds
+2018-05-14 02:13:46.758 Info App: Starting entry point Emby.Dlna.Main.DlnaEntryPoint
+2018-05-14 02:13:47.404 Info App: Entry point completed: Emby.Dlna.Main.DlnaEntryPoint. Duration: 0.6457466 seconds
+2018-05-14 02:13:47.417 Info App: Starting entry point Emby.Server.Connect.ConnectEntryPoint
+2018-05-14 02:13:47.420 Info App: Loading data from /config/data/connect.txt
+2018-05-14 02:13:47.513 Info App: Loading data from /config/data/wan.dat
+2018-05-14 02:13:47.635 Info App: Entry point completed: Emby.Server.Connect.ConnectEntryPoint. Duration: 0.2174828 seconds
+2018-05-14 02:13:47.635 Info App: Core startup complete
+2018-05-14 02:13:47.636 Info App: Post-init migrations complete
+2018-05-14 02:13:47.636 Info App: Starting entry point Emby.Security.PluginSecurityManager
+2018-05-14 02:13:47.659 Info App: Entry point completed: Emby.Security.PluginSecurityManager. Duration: 0.0221429 seconds
+2018-05-14 02:13:47.659 Info App: Starting entry point Emby.Server.CinemaMode.IntrosEntryPoint
+2018-05-14 02:13:47.662 Info App: Entry point completed: Emby.Server.CinemaMode.IntrosEntryPoint. Duration: 0.0030676 seconds
+2018-05-14 02:13:47.662 Info App: Starting entry point MediaBrowser.Api.ApiEntryPoint
+2018-05-14 02:13:47.662 Info App: Entry point completed: MediaBrowser.Api.ApiEntryPoint. Duration: 0.000527 seconds
+2018-05-14 02:13:47.663 Info App: Starting entry point Emby.Server.Implementations.Notifications.Notifications
+2018-05-14 02:13:47.670 Info App: Entry point completed: Emby.Server.Implementations.Notifications.Notifications. Duration: 0.007176 seconds
+2018-05-14 02:13:47.670 Info App: Starting entry point Emby.Server.Implementations.Notifications.WebSocketNotifier
+2018-05-14 02:13:47.678 Info App: Entry point completed: Emby.Server.Implementations.Notifications.WebSocketNotifier. Duration: 0.0083337 seconds
+2018-05-14 02:13:47.678 Info App: Starting entry point Emby.Server.Implementations.News.NewsEntryPoint
+2018-05-14 02:13:47.679 Info App: Entry point completed: Emby.Server.Implementations.News.NewsEntryPoint. Duration: 0.0003408 seconds
+2018-05-14 02:13:47.679 Info App: Starting entry point Emby.Server.Implementations.LiveTv.EmbyTV.EntryPoint
+2018-05-14 02:13:47.682 Info App: Loading live tv data from /config/data/livetv/timers
+2018-05-14 02:13:47.988 Info App: Entry point completed: Emby.Server.Implementations.LiveTv.EmbyTV.EntryPoint. Duration: 0.3087804 seconds
+2018-05-14 02:13:47.988 Info App: Starting entry point Emby.Server.Implementations.Library.DeviceAccessEntryPoint
+2018-05-14 02:13:47.989 Info App: Entry point completed: Emby.Server.Implementations.Library.DeviceAccessEntryPoint. Duration: 0.0011867 seconds
+2018-05-14 02:13:47.989 Info App: Starting entry point Emby.Server.Implementations.IO.LibraryMonitorStartup
+2018-05-14 02:13:48.050 Info App: Entry point completed: Emby.Server.Implementations.IO.LibraryMonitorStartup. Duration: 0.0604677 seconds
+2018-05-14 02:13:48.050 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint
+2018-05-14 02:13:48.052 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint. Duration: 0.0011673 seconds
+2018-05-14 02:13:48.052 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.ExternalPortForwarding
+2018-05-14 02:13:48.066 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.ExternalPortForwarding. Duration: 0.0139821 seconds
+2018-05-14 02:13:48.066 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.KeepServerAwake
+2018-05-14 02:13:48.067 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.KeepServerAwake. Duration: 0.0006759 seconds
+2018-05-14 02:13:48.067 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier
+2018-05-14 02:13:48.069 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier. Duration: 0.0024592 seconds
+2018-05-14 02:13:48.069 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.RecordingNotifier
+2018-05-14 02:13:48.073 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.RecordingNotifier. Duration: 0.0031674 seconds
+2018-05-14 02:13:48.073 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.ServerEventNotifier
+2018-05-14 02:13:48.078 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.ServerEventNotifier. Duration: 0.005195 seconds
+2018-05-14 02:13:48.078 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.StartupWizard
+2018-05-14 02:13:48.081 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.StartupWizard. Duration: 0.0023376 seconds
+2018-05-14 02:13:48.081 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.SystemEvents
+2018-05-14 02:13:48.082 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.SystemEvents. Duration: 0.0009934 seconds
+2018-05-14 02:13:48.082 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.UdpServerEntryPoint
+2018-05-14 02:13:48.091 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.UdpServerEntryPoint. Duration: 0.0085102 seconds
+2018-05-14 02:13:48.091 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.UsageEntryPoint
+2018-05-14 02:13:48.094 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.UsageEntryPoint. Duration: 0.0024814 seconds
+2018-05-14 02:13:48.094 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier
+2018-05-14 02:13:48.094 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier. Duration: 0.0007574 seconds
+2018-05-14 02:13:48.094 Info App: Starting entry point Emby.Server.Implementations.Devices.DeviceManagerEntryPoint
+2018-05-14 02:13:48.097 Info App: Entry point completed: Emby.Server.Implementations.Devices.DeviceManagerEntryPoint. Duration: 0.0020423 seconds
+2018-05-14 02:13:48.097 Info App: Starting entry point Emby.Server.Implementations.Collections.CollectionManagerEntryPoint
+2018-05-14 02:13:48.101 Info App: Entry point completed: Emby.Server.Implementations.Collections.CollectionManagerEntryPoint. Duration: 0.0040983 seconds
+2018-05-14 02:13:48.101 Info App: Starting entry point Emby.Server.Implementations.Activity.ActivityLogEntryPoint
+2018-05-14 02:13:48.106 Info App: Entry point completed: Emby.Server.Implementations.Activity.ActivityLogEntryPoint. Duration: 0.0047644 seconds
+2018-05-14 02:13:48.106 Info App: Starting entry point Emby.Server.MediaEncoding.Api.ApiEntryPoint
+2018-05-14 02:13:48.113 Info App: Entry point completed: Emby.Server.MediaEncoding.Api.ApiEntryPoint. Duration: 0.0072378 seconds
+2018-05-14 02:13:48.113 Info App: Starting entry point MediaBrowser.XbmcMetadata.EntryPoint
+2018-05-14 02:13:48.114 Info App: Entry point completed: MediaBrowser.XbmcMetadata.EntryPoint. Duration: 0.00072 seconds
+2018-05-14 02:13:48.114 Info App: Starting entry point Emby.Security.PluginSecurityManager
+2018-05-14 02:13:48.114 Info App: Entry point completed: Emby.Security.PluginSecurityManager. Duration: 0.0001892 seconds
+2018-05-14 02:13:48.114 Info App: Starting entry point Emby.Server.Sync.SyncManagerEntryPoint
+2018-05-14 02:13:48.125 Info App: Sqlite version: 3.23.1
+2018-05-14 02:13:48.126 Info App: Sqlite compiler options: COMPILER=gcc-6.3.0,ENABLE_COLUMN_METADATA,ENABLE_DBSTAT_VTAB,ENABLE_FTS3,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS3_TOKENIZER,ENABLE_FTS5,ENABLE_JSON1,ENABLE_PREUPDATE_HOOK,ENABLE_RTREE,ENABLE_SESSION,ENABLE_UNLOCK_NOTIFY,ENABLE_UPDATE_DELETE_LIMIT,LIKE_DOESNT_MATCH_BLOBS,MAX_SCHEMA_RETRY=25,MAX_VARIABLE_NUMBER=250000,OMIT_LOOKASIDE,SECURE_DELETE,THREADSAFE=1
+2018-05-14 02:13:48.162 Info App: Default journal_mode for /config/data/sync14.db is wal
+2018-05-14 02:13:48.164 Info App: PRAGMA synchronous=1
+2018-05-14 02:13:48.166 Info App: Entry point completed: Emby.Server.Sync.SyncManagerEntryPoint. Duration: 0.0517137 seconds
+2018-05-14 02:13:48.166 Info App: Starting entry point Emby.Server.Sync.SyncNotificationEntryPoint
+2018-05-14 02:13:48.167 Info App: Entry point completed: Emby.Server.Sync.SyncNotificationEntryPoint. Duration: 0.0007792 seconds
+2018-05-14 02:13:48.167 Info App: All entry points have started
+2018-05-14 02:13:48.197 Info HttpClient: GET https://emby.media/community/index.php?/blog/rss/1-media-browser-developers-blog
+2018-05-14 02:13:49.092 Info TaskManager: StartupTrigger fired for task: Check for plugin updates
+2018-05-14 02:13:49.108 Info TaskManager: Queueing task PluginUpdateTask
+2018-05-14 02:13:49.109 Info TaskManager: StartupTrigger fired for task: Check for application updates
+2018-05-14 02:13:49.109 Info TaskManager: Queueing task SystemUpdateTask
+2018-05-14 02:13:49.129 Info TaskManager: Executing Check for application updates
+2018-05-14 02:13:49.136 Info TaskManager: Executing Check for plugin updates
+2018-05-14 02:13:49.171 Info HttpClient: GET https://www.mb3admin.com/admin/service/EmbyPackages.json
+2018-05-14 02:13:49.341 Info TaskManager: Check for application updates Completed after 0 minute(s) and 0 seconds
+2018-05-14 02:13:49.381 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 02:13:51.060 Info TaskManager: Check for plugin updates Completed after 0 minute(s) and 1 seconds
+2018-05-14 02:13:51.105 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 03:13:45.989 Info TaskManager: IntervalTrigger fired for task: Download missing subtitles
+2018-05-14 03:13:45.989 Info TaskManager: Queueing task SubtitleScheduledTask
+2018-05-14 03:13:45.990 Info TaskManager: Executing Download missing subtitles
+2018-05-14 03:13:46.027 Info TaskManager: Download missing subtitles Completed after 0 minute(s) and 0 seconds
+2018-05-14 03:13:46.049 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 03:13:46.069 Info TaskManager: IntervalTrigger fired for task: Refresh people
+2018-05-14 03:13:46.069 Info TaskManager: Queueing task PeopleValidationTask
+2018-05-14 03:13:46.069 Info TaskManager: Executing Refresh people
+2018-05-14 03:13:46.098 Info TaskManager: IntervalTrigger fired for task: Scan media library
+2018-05-14 03:13:46.098 Info TaskManager: Queueing task RefreshMediaLibraryTask
+2018-05-14 03:13:46.098 Info TaskManager: Executing Scan media library
+2018-05-14 03:13:46.109 Info App: People validation complete
+2018-05-14 03:13:46.109 Info TaskManager: Refresh people Completed after 0 minute(s) and 0 seconds
+2018-05-14 03:13:46.114 Info App: Validating media library
+2018-05-14 03:13:46.119 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 03:13:46.129 Info TaskManager: IntervalTrigger fired for task: Log file cleanup
+2018-05-14 03:13:46.130 Info TaskManager: Queueing task DeleteLogFileTask
+2018-05-14 03:13:46.130 Info TaskManager: Executing Log file cleanup
+2018-05-14 03:13:46.147 Info TaskManager: Log file cleanup Completed after 0 minute(s) and 0 seconds
+2018-05-14 03:13:46.163 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 03:13:46.174 Info TaskManager: IntervalTrigger fired for task: Convert media
+2018-05-14 03:13:46.174 Info TaskManager: Queueing task SyncConvertScheduledTask
+2018-05-14 03:13:46.174 Info TaskManager: Executing Convert media
+2018-05-14 03:13:46.228 Info TaskManager: Queueing task ServerSyncScheduledTask
+2018-05-14 03:13:46.228 Info TaskManager: Convert media Completed after 0 minute(s) and 0 seconds
+2018-05-14 03:13:46.240 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 03:13:46.251 Info TaskManager: Executing Cloud & Folder Sync
+2018-05-14 03:13:46.287 Info TaskManager: Cloud & Folder Sync Completed after 0 minute(s) and 0 seconds
+2018-05-14 03:13:46.304 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 03:13:46.315 Info TaskManager: IntervalTrigger fired for task: Cache file cleanup
+2018-05-14 03:13:46.315 Info TaskManager: Queueing task DeleteCacheFileTask
+2018-05-14 03:13:46.315 Info TaskManager: Executing Cache file cleanup
+2018-05-14 03:13:46.344 Info TaskManager: Cache file cleanup Completed after 0 minute(s) and 0 seconds
+2018-05-14 03:13:46.355 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 03:13:46.367 Info TaskManager: IntervalTrigger fired for task: Cloud & Folder Sync
+2018-05-14 03:13:46.367 Info TaskManager: Queueing task ServerSyncScheduledTask
+2018-05-14 03:13:46.367 Info TaskManager: Executing Cloud & Folder Sync
+2018-05-14 03:13:46.368 Info TaskManager: Cloud & Folder Sync Completed after 0 minute(s) and 0 seconds
+2018-05-14 03:13:46.389 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 03:13:46.406 Info TaskManager: IntervalTrigger fired for task: Refresh Channels
+2018-05-14 03:13:46.406 Info TaskManager: Queueing task RefreshChannelsScheduledTask
+2018-05-14 03:13:46.406 Info TaskManager: Executing Refresh Channels
+2018-05-14 03:13:46.472 Info TaskManager: Refresh Channels Completed after 0 minute(s) and 0 seconds
+2018-05-14 03:13:46.503 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 03:13:46.514 Info TaskManager: IntervalTrigger fired for task: Refresh Users
+2018-05-14 03:13:46.514 Info TaskManager: Queueing task RefreshUsersMetadata
+2018-05-14 03:13:46.514 Info TaskManager: Executing Refresh Users
+2018-05-14 03:13:46.590 Info TaskManager: Refresh Users Completed after 0 minute(s) and 0 seconds
+2018-05-14 03:13:46.603 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 03:13:46.615 Info TaskManager: IntervalTrigger fired for task: Refresh Guide
+2018-05-14 03:13:46.615 Info TaskManager: Queueing task RefreshChannelsScheduledTask
+2018-05-14 03:13:46.615 Info TaskManager: Executing Refresh Guide
+2018-05-14 03:13:46.724 Info TaskManager: Scan media library Completed after 0 minute(s) and 0 seconds
+2018-05-14 03:13:46.737 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 03:13:49.719 Info App: Refreshing guide with 7 days of guide data
+2018-05-14 03:13:49.729 Info App: Loading live tv data from /config/data/livetv/seriestimers
+2018-05-14 03:13:49.740 Info TaskManager: Refresh Guide Completed after 0 minute(s) and 3 seconds
+2018-05-14 03:13:49.753 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 04:13:47.606 Info TaskManager: IntervalTrigger fired for task: Refresh Guide
+2018-05-14 04:13:47.606 Info TaskManager: Queueing task RefreshChannelsScheduledTask
+2018-05-14 04:13:47.607 Info TaskManager: Executing Refresh Guide
+2018-05-14 04:13:50.620 Info App: Refreshing guide with 7 days of guide data
+2018-05-14 04:13:50.620 Info TaskManager: Refresh Guide Completed after 0 minute(s) and 3 seconds
+2018-05-14 04:13:50.653 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 06:13:46.234 Info TaskManager: IntervalTrigger fired for task: Convert media
+2018-05-14 06:13:46.234 Info TaskManager: Queueing task SyncConvertScheduledTask
+2018-05-14 06:13:46.234 Info TaskManager: Executing Convert media
+2018-05-14 06:13:46.235 Info TaskManager: Queueing task ServerSyncScheduledTask
+2018-05-14 06:13:46.235 Info TaskManager: Convert media Completed after 0 minute(s) and 0 seconds
+2018-05-14 06:13:46.235 Info TaskManager: Executing Cloud & Folder Sync
+2018-05-14 06:13:46.236 Info TaskManager: Cloud & Folder Sync Completed after 0 minute(s) and 0 seconds
+2018-05-14 06:13:46.286 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 06:13:46.315 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 06:13:46.370 Info TaskManager: IntervalTrigger fired for task: Cloud & Folder Sync
+2018-05-14 06:13:46.370 Info TaskManager: Queueing task ServerSyncScheduledTask
+2018-05-14 06:13:46.370 Info TaskManager: Executing Cloud & Folder Sync
+2018-05-14 06:13:46.372 Info TaskManager: Cloud & Folder Sync Completed after 0 minute(s) and 0 seconds
+2018-05-14 06:13:46.412 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 09:13:46.240 Info TaskManager: IntervalTrigger fired for task: Convert media
+2018-05-14 09:13:46.240 Info TaskManager: Queueing task SyncConvertScheduledTask
+2018-05-14 09:13:46.240 Info TaskManager: Executing Convert media
+2018-05-14 09:13:46.241 Info TaskManager: Queueing task ServerSyncScheduledTask
+2018-05-14 09:13:46.241 Info TaskManager: Convert media Completed after 0 minute(s) and 0 seconds
+2018-05-14 09:13:46.241 Info TaskManager: Executing Cloud & Folder Sync
+2018-05-14 09:13:46.241 Info TaskManager: Cloud & Folder Sync Completed after 0 minute(s) and 0 seconds
+2018-05-14 09:13:46.261 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 09:13:46.277 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 09:13:46.380 Info TaskManager: IntervalTrigger fired for task: Cloud & Folder Sync
+2018-05-14 09:13:46.380 Info TaskManager: Queueing task ServerSyncScheduledTask
+2018-05-14 09:13:46.380 Info TaskManager: Executing Cloud & Folder Sync
+2018-05-14 09:13:46.381 Info TaskManager: Cloud & Folder Sync Completed after 0 minute(s) and 0 seconds
+2018-05-14 09:13:46.434 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 12:13:46.248 Info TaskManager: IntervalTrigger fired for task: Convert media
+2018-05-14 12:13:46.248 Info TaskManager: Queueing task SyncConvertScheduledTask
+2018-05-14 12:13:46.249 Info TaskManager: Executing Convert media
+2018-05-14 12:13:46.249 Info TaskManager: Queueing task ServerSyncScheduledTask
+2018-05-14 12:13:46.249 Info TaskManager: Convert media Completed after 0 minute(s) and 0 seconds
+2018-05-14 12:13:46.249 Info TaskManager: Executing Cloud & Folder Sync
+2018-05-14 12:13:46.250 Info TaskManager: Cloud & Folder Sync Completed after 0 minute(s) and 0 seconds
+2018-05-14 12:13:46.305 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 12:13:46.322 Info TaskManager: ExecuteQueuedTasks
+2018-05-14 12:13:46.388 Info TaskManager: IntervalTrigger fired for task: Cloud & Folder Sync
+2018-05-14 12:13:46.388 Info TaskManager: Queueing task ServerSyncScheduledTask
+2018-05-14 12:13:46.388 Info TaskManager: Executing Cloud & Folder Sync
+2018-05-14 12:13:46.389 Info TaskManager: Cloud & Folder Sync Completed after 0 minute(s) and 0 seconds
+2018-05-14 12:13:46.410 Info TaskManager: ExecuteQueuedTasks

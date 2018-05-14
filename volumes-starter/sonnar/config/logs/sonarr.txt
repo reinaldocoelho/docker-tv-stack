@@ -1,0 +1,655 @@
+18-5-13 22:13:28.0|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5163
+18-5-13 22:13:29.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+18-5-13 22:13:29.8|Info|Router|Application mode: Interactive
+18-5-13 22:13:30.3|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+18-5-13 22:13:31.0|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+18-5-13 22:13:31.3|Info|OwinHostController|Listening on the following URLs:
+18-5-13 22:13:31.3|Info|OwinHostController|  http://*:8989/
+18-5-13 22:13:31.7|Info|NancyBootstrapper|Starting Web Server
+18-5-13 22:15:01.9|Error|QBittorrent|Unable to test qBittorrent
+
+[v2.0.0.5163] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Failed to connect to qBittorrent, please check your settings. ---> System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://localhost:8088/login' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <2740d7148e184840ad6689888c90a56d>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetRequestStream (System.IAsyncResult asyncResult) [0x0003a] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x0004e] in <2740d7148e184840ad6689888c90a56d>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000ca] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:57 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0019e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:91 
+  at NzbDrone.Common.Http.Dispatchers.FallbackHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000b5] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\FallbackHttpDispatcher.cs:53 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request) [0x0007e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:119 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:55 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxy.AuthenticateClient (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean reauthenticate) [0x000a4] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxy.cs:276 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxy.AuthenticateClient (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings, System.Boolean reauthenticate) [0x000f4] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxy.cs:290 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxy.cs:217 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxy.ProcessRequest[TResult] (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxy.GetVersion (NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentSettings settings) [0x00012] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrentProxy.cs:48 
+  at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.TestConnection () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Download\Clients\QBittorrent\QBittorrent.cs:195 
+
+18-5-13 22:15:03.8|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unknown exception: Failed to connect to qBittorrent, please check your settings.
+18-5-13 22:16:05.2|Info|RssSyncService|Starting RSS Sync
+18-5-13 22:16:05.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-13 22:16:05.2|Info|DownloadDecisionMaker|No results found
+18-5-13 22:16:05.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-13 22:24:46.7|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- 'Api Key' should not be empty.
+18-5-13 22:31:05.5|Info|RssSyncService|Starting RSS Sync
+18-5-13 22:31:05.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-13 22:31:05.5|Info|DownloadDecisionMaker|No results found
+18-5-13 22:31:05.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-13 22:32:57.7|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- must be valid URL that starts with http(s)://
+18-5-13 22:32:59.9|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- must be valid URL that starts with http(s)://
+18-5-13 22:33:07.3|Warn|Newznab|Unable to connect to indexer
+
+[v2.0.0.5163] System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://jackett.server/api?t=caps&apikey=(removed) ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <2740d7148e184840ad6689888c90a56d>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00058] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x0000e] in <2740d7148e184840ad6689888c90a56d>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f6] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:63 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0019e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:91 
+  at NzbDrone.Common.Http.Dispatchers.FallbackHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000b5] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\FallbackHttpDispatcher.cs:53 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request) [0x0007e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:119 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:55 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:22 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+18-5-13 22:33:07.3|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 22:33:09.7|Warn|Newznab|Unable to connect to indexer
+
+[v2.0.0.5163] System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://jackett.server/api?t=caps&apikey=(removed) ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <2740d7148e184840ad6689888c90a56d>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00058] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x0000e] in <2740d7148e184840ad6689888c90a56d>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f6] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:63 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0019e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:91 
+  at NzbDrone.Common.Http.Dispatchers.FallbackHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000b5] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\FallbackHttpDispatcher.cs:53 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request) [0x0007e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:119 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:55 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:22 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+18-5-13 22:33:09.8|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 22:36:18.7|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5163
+18-5-13 22:36:19.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+18-5-13 22:36:19.6|Info|Router|Application mode: Interactive
+18-5-13 22:36:19.9|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+18-5-13 22:36:20.2|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+18-5-13 22:36:20.3|Info|OwinHostController|Listening on the following URLs:
+18-5-13 22:36:20.3|Info|OwinHostController|  http://*:8989/
+18-5-13 22:36:20.5|Info|NancyBootstrapper|Starting Web Server
+18-5-13 22:37:25.0|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- must be valid URL that starts with http(s)://
+18-5-13 22:37:32.8|Warn|Newznab|Unable to connect to indexer
+
+[v2.0.0.5163] System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://jackett.server/api?t=caps&apikey=(removed) ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <2740d7148e184840ad6689888c90a56d>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00058] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x0000e] in <2740d7148e184840ad6689888c90a56d>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f6] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:63 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0019e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:91 
+  at NzbDrone.Common.Http.Dispatchers.FallbackHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000b5] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\FallbackHttpDispatcher.cs:53 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request) [0x0007e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:119 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:55 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:22 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+18-5-13 22:37:32.8|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 22:46:22.6|Info|RssSyncService|Starting RSS Sync
+18-5-13 22:46:22.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-13 22:46:22.7|Info|DownloadDecisionMaker|No results found
+18-5-13 22:46:22.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-13 22:50:56.7|Warn|Newznab|Unable to connect to indexer
+
+[v2.0.0.5163] System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://jackett.server/api?t=caps&apikey=(removed) ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <2740d7148e184840ad6689888c90a56d>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00058] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x0000e] in <2740d7148e184840ad6689888c90a56d>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f6] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:63 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0019e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:91 
+  at NzbDrone.Common.Http.Dispatchers.FallbackHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000b5] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\FallbackHttpDispatcher.cs:53 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request) [0x0007e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:119 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:55 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:22 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+18-5-13 22:50:56.7|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 22:51:19.3|Warn|HttpClient|HTTP Error - Res: [GET] http://jackett.server:9117/api?t=caps&apikey=(removed) 404.NotFound
+18-5-13 22:51:19.3|Warn|Newznab|Unable to connect to indexer
+
+[v2.0.0.5163] NzbDrone.Common.Http.HttpException: HTTP request failed: [404:NotFound] [GET] at [http://jackett.server:9117/api?t=caps&apikey=(removed)  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00129] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:98 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:22 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+
+18-5-13 22:51:19.3|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 22:51:42.4|Warn|HttpClient|HTTP Error - Res: [GET] http://jackett.server:9117/api?t=caps&apikey=(removed) 404.NotFound
+18-5-13 22:51:42.4|Warn|Newznab|Unable to connect to indexer
+
+[v2.0.0.5163] NzbDrone.Common.Http.HttpException: HTTP request failed: [404:NotFound] [GET] at [http://jackett.server:9117/api?t=caps&apikey=(removed)  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00129] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:98 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:22 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+
+18-5-13 22:51:42.4|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 22:51:44.4|Warn|HttpClient|HTTP Error - Res: [GET] http://jackett.server:9117/api?t=caps&apikey=(removed) 404.NotFound
+18-5-13 22:51:44.4|Warn|Newznab|Unable to connect to indexer
+
+[v2.0.0.5163] NzbDrone.Common.Http.HttpException: HTTP request failed: [404:NotFound] [GET] at [http://jackett.server:9117/api?t=caps&apikey=(removed)  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00129] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:98 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:22 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+
+18-5-13 22:51:44.5|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 22:51:57.0|Warn|HttpClient|HTTP Error - Res: [GET] http://jackett.server:9117/api?t=caps&apikey=(removed) 404.NotFound
+18-5-13 22:51:57.0|Warn|Newznab|Unable to connect to indexer
+
+[v2.0.0.5163] NzbDrone.Common.Http.HttpException: HTTP request failed: [404:NotFound] [GET] at [http://jackett.server:9117/api?t=caps&apikey=(removed)  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00129] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:98 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:22 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+
+18-5-13 22:51:57.0|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 22:52:04.7|Warn|HttpClient|HTTP Error - Res: [GET] http://jackett.server:9117/api?t=caps&apikey=(removed) 404.NotFound
+18-5-13 22:52:04.7|Warn|Newznab|Unable to connect to indexer
+
+[v2.0.0.5163] NzbDrone.Common.Http.HttpException: HTTP request failed: [404:NotFound] [GET] at [http://jackett.server:9117/api?t=caps&apikey=(removed)  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00129] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:98 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:22 
+  at NzbDrone.Core.Indexers.Newznab.Newznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\Newznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+
+18-5-13 22:52:04.7|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 22:55:53.2|Warn|HttpClient|HTTP Error - Res: [GET] http://jackett.server:9117/api?t=caps&apikey=(removed) 404.NotFound
+18-5-13 22:55:53.3|Warn|Torznab|Unable to connect to indexer
+
+[v2.0.0.5163] NzbDrone.Common.Http.HttpException: HTTP request failed: [404:NotFound] [GET] at [http://jackett.server:9117/api?t=caps&apikey=(removed)  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00129] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:98 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:22 
+  at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+
+18-5-13 22:55:53.3|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 22:55:59.9|Warn|HttpClient|HTTP Error - Res: [GET] http://jackett.server:9117/api?t=caps&apikey=(removed) 404.NotFound
+18-5-13 22:56:00.0|Warn|Torznab|Unable to connect to indexer
+
+[v2.0.0.5163] NzbDrone.Common.Http.HttpException: HTTP request failed: [404:NotFound] [GET] at [http://jackett.server:9117/api?t=caps&apikey=(removed)  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00129] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:98 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:22 
+  at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+
+18-5-13 22:56:00.0|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 22:56:56.3|Warn|HttpClient|HTTP Error - Res: [GET] http://jackett.server:9117/api?t=caps&apikey=(removed) 404.NotFound
+18-5-13 22:56:56.3|Warn|Torznab|Unable to connect to indexer
+
+[v2.0.0.5163] NzbDrone.Common.Http.HttpException: HTTP request failed: [404:NotFound] [GET] at [http://jackett.server:9117/api?t=caps&apikey=(removed)  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00129] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:98 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:22 
+  at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+
+18-5-13 22:56:56.3|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 23:01:23.1|Info|RssSyncService|Starting RSS Sync
+18-5-13 23:01:23.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-13 23:01:23.1|Info|DownloadDecisionMaker|No results found
+18-5-13 23:01:23.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-13 23:11:39.7|Warn|HttpClient|HTTP Error - Res: [GET] http://jackett.server:9117/api?t=caps&apikey=(removed) 404.NotFound
+18-5-13 23:11:39.7|Warn|Torznab|Unable to connect to indexer
+
+[v2.0.0.5163] NzbDrone.Common.Http.HttpException: HTTP request failed: [404:NotFound] [GET] at [http://jackett.server:9117/api?t=caps&apikey=(removed)  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00129] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:98 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:22 
+  at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+
+18-5-13 23:11:39.7|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 23:13:43.4|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5163
+18-5-13 23:13:44.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+18-5-13 23:13:44.4|Info|Router|Application mode: Interactive
+18-5-13 23:13:44.8|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+18-5-13 23:13:45.2|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+18-5-13 23:13:45.3|Info|OwinHostController|Listening on the following URLs:
+18-5-13 23:13:45.3|Info|OwinHostController|  http://*:8989/
+18-5-13 23:13:45.6|Info|NancyBootstrapper|Starting Web Server
+18-5-13 23:13:55.4|Warn|HttpClient|HTTP Error - Res: [GET] http://jackett.server:9117/api?t=caps&apikey=(removed) 404.NotFound
+18-5-13 23:13:55.4|Warn|Torznab|Unable to connect to indexer
+
+[v2.0.0.5163] NzbDrone.Common.Http.HttpException: HTTP request failed: [404:NotFound] [GET] at [http://jackett.server:9117/api?t=caps&apikey=(removed)  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00129] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:98 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:22 
+  at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+
+18-5-13 23:13:55.5|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-13 23:16:47.4|Info|RssSyncService|Starting RSS Sync
+18-5-13 23:16:47.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-13 23:16:47.4|Info|DownloadDecisionMaker|No results found
+18-5-13 23:16:47.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-13 23:31:47.9|Info|RssSyncService|Starting RSS Sync
+18-5-13 23:31:47.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-13 23:31:47.9|Info|DownloadDecisionMaker|No results found
+18-5-13 23:31:48.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-13 23:46:48.5|Info|RssSyncService|Starting RSS Sync
+18-5-13 23:46:48.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-13 23:46:48.5|Info|DownloadDecisionMaker|No results found
+18-5-13 23:46:48.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 00:01:50.3|Info|RssSyncService|Starting RSS Sync
+18-5-14 00:01:50.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 00:01:50.3|Info|DownloadDecisionMaker|No results found
+18-5-14 00:01:50.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 00:16:50.8|Info|RssSyncService|Starting RSS Sync
+18-5-14 00:16:50.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 00:16:50.8|Info|DownloadDecisionMaker|No results found
+18-5-14 00:16:50.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 00:31:51.4|Info|RssSyncService|Starting RSS Sync
+18-5-14 00:31:51.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 00:31:51.5|Info|DownloadDecisionMaker|No results found
+18-5-14 00:31:51.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 00:46:22.0|Info|SceneMappingService|Updating Scene mappings
+18-5-14 00:46:42.1|Error|SceneMappingService|Failed to Update Scene Mappings
+
+[v2.0.0.5163] System.Net.WebException: DNS Name Resolution Failure: 'thexem.de'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0013d] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:79 
+  at NzbDrone.Common.Http.Dispatchers.FallbackHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000b5] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\FallbackHttpDispatcher.cs:53 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request) [0x0007e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:119 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:55 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Common.Http.HttpClient.Get[T] (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:225 
+  at NzbDrone.Core.DataAugmentation.Xem.XemProxy.GetSceneTvdbNames () [0x0003c] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\DataAugmentation\Xem\XemProxy.cs:82 
+  at NzbDrone.Core.DataAugmentation.Xem.XemService.GetSceneMappings () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\DataAugmentation\Xem\XemService.cs:205 
+  at NzbDrone.Core.DataAugmentation.Scene.SceneMappingService.UpdateMappings () [0x00028] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\DataAugmentation\Scene\SceneMappingService.cs:152 
+
+18-5-14 00:46:52.1|Info|RssSyncService|Starting RSS Sync
+18-5-14 00:46:52.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 00:46:52.1|Info|DownloadDecisionMaker|No results found
+18-5-14 00:46:52.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 00:47:07.2|Error|SceneMappingService|Failed to Update Scene Mappings
+
+[v2.0.0.5163] System.Net.WebException: DNS Name Resolution Failure: 'services.sonarr.tv'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0013d] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:79 
+  at NzbDrone.Common.Http.Dispatchers.FallbackHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000b5] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\FallbackHttpDispatcher.cs:53 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request) [0x0007e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:119 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:55 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Common.Http.HttpClient.Get[T] (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:225 
+  at NzbDrone.Core.DataAugmentation.Scene.SceneMappingProxy.Fetch () [0x0001b] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\DataAugmentation\Scene\SceneMappingProxy.cs:29 
+  at NzbDrone.Core.DataAugmentation.Scene.ServicesProvider.GetSceneMappings () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\DataAugmentation\Scene\ServicesProvider.cs:16 
+  at NzbDrone.Core.DataAugmentation.Scene.SceneMappingService.UpdateMappings () [0x00028] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\DataAugmentation\Scene\SceneMappingService.cs:152 
+
+18-5-14 01:01:52.5|Info|RssSyncService|Starting RSS Sync
+18-5-14 01:01:52.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 01:01:52.6|Info|DownloadDecisionMaker|No results found
+18-5-14 01:01:52.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 01:16:53.0|Info|RssSyncService|Starting RSS Sync
+18-5-14 01:16:53.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 01:16:53.1|Info|DownloadDecisionMaker|No results found
+18-5-14 01:16:53.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 01:31:53.7|Info|RssSyncService|Starting RSS Sync
+18-5-14 01:31:53.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 01:31:53.7|Info|DownloadDecisionMaker|No results found
+18-5-14 01:31:53.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 01:46:55.8|Info|RssSyncService|Starting RSS Sync
+18-5-14 01:46:55.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 01:46:55.8|Info|DownloadDecisionMaker|No results found
+18-5-14 01:46:55.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 02:01:56.1|Info|RssSyncService|Starting RSS Sync
+18-5-14 02:01:56.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 02:01:56.1|Info|DownloadDecisionMaker|No results found
+18-5-14 02:01:56.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 02:16:56.9|Info|RssSyncService|Starting RSS Sync
+18-5-14 02:16:56.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 02:16:56.9|Info|DownloadDecisionMaker|No results found
+18-5-14 02:16:56.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 02:31:57.3|Info|RssSyncService|Starting RSS Sync
+18-5-14 02:31:57.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 02:31:57.3|Info|DownloadDecisionMaker|No results found
+18-5-14 02:31:57.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 02:46:57.8|Info|RssSyncService|Starting RSS Sync
+18-5-14 02:46:57.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 02:46:57.8|Info|DownloadDecisionMaker|No results found
+18-5-14 02:46:57.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 03:01:58.2|Info|RssSyncService|Starting RSS Sync
+18-5-14 03:01:58.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 03:01:58.3|Info|DownloadDecisionMaker|No results found
+18-5-14 03:01:58.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 03:16:58.6|Info|RssSyncService|Starting RSS Sync
+18-5-14 03:16:58.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 03:16:58.7|Info|DownloadDecisionMaker|No results found
+18-5-14 03:16:58.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 03:31:59.4|Info|RssSyncService|Starting RSS Sync
+18-5-14 03:31:59.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 03:31:59.4|Info|DownloadDecisionMaker|No results found
+18-5-14 03:31:59.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 03:46:19.8|Error|CommandExecutor|Error occurred while executing task ApplicationUpdate
+
+[v2.0.0.5163] System.Net.WebException: DNS Name Resolution Failure: 'services.sonarr.tv'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0013d] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:79 
+  at NzbDrone.Common.Http.Dispatchers.FallbackHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000b5] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\FallbackHttpDispatcher.cs:53 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request) [0x0007e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:119 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:55 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Common.Http.HttpClient.Get[T] (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:225 
+  at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate (System.String branch, System.Version currentVersion) [0x0006c] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Update\UpdatePackageProvider.cs:38 
+  at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Update\UpdateCheckService.cs:26 
+  at NzbDrone.Core.Update.InstallUpdateService.Execute (NzbDrone.Core.Update.Commands.ApplicationUpdateCommand message) [0x00016] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Update\InstallUpdateService.cs:198 
+  at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandModel commandModel) [0x000f6] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:95 
+  at (wrapper dynamic-method) System.Object.CallSite.Target(System.Runtime.CompilerServices.Closure,System.Runtime.CompilerServices.CallSite,NzbDrone.Core.Messaging.Commands.CommandExecutor,object,NzbDrone.Core.Messaging.Commands.CommandModel)
+  at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2] (System.Runtime.CompilerServices.CallSite site, T0 arg0, T1 arg1, T2 arg2) [0x00110] in <4bd4dbd20d094f3f8734f677798e9741>:0 
+  at (wrapper dynamic-method) System.Object.CallSite.Target(System.Runtime.CompilerServices.Closure,System.Runtime.CompilerServices.CallSite,NzbDrone.Core.Messaging.Commands.CommandExecutor,object,NzbDrone.Core.Messaging.Commands.CommandModel)
+  at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands () [0x00027] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:41 
+
+18-5-14 03:47:00.0|Info|RssSyncService|Starting RSS Sync
+18-5-14 03:47:00.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 03:47:00.1|Info|DownloadDecisionMaker|No results found
+18-5-14 03:47:00.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 03:47:01.8|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v2.0.0.5163] System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://services.sonarr.tv/v1/update/master?version=2.0.0.5163&os=linux&runtimeVer=5.10.1.47' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <2740d7148e184840ad6689888c90a56d>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00058] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x0000e] in <2740d7148e184840ad6689888c90a56d>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f6] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:63 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0019e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:91 
+  at NzbDrone.Common.Http.Dispatchers.FallbackHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000b5] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\FallbackHttpDispatcher.cs:53 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request) [0x0007e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:119 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:55 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Common.Http.HttpClient.Get[T] (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:225 
+  at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate (System.String branch, System.Version currentVersion) [0x0006c] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Update\UpdatePackageProvider.cs:38 
+  at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Update\UpdateCheckService.cs:26 
+  at NzbDrone.Core.HealthCheck.Checks.UpdateCheck.Check () [0x000f7] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\HealthCheck\Checks\UpdateCheck.cs:63 
+  at NzbDrone.Core.HealthCheck.HealthCheckService+<>c.<PerformHealthCheck>b__11_0 (NzbDrone.Core.HealthCheck.IProvideHealthCheck c) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:71 
+  at System.Linq.Enumerable+SelectArrayIterator`2[TSource,TResult].ToList () [0x00014] in <4bd4dbd20d094f3f8734f677798e9741>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <4bd4dbd20d094f3f8734f677798e9741>:0 
+  at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck (NzbDrone.Core.HealthCheck.IProvideHealthCheck[] healthChecks) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:71 
+  at NzbDrone.Core.HealthCheck.HealthCheckService.Execute (NzbDrone.Core.HealthCheck.CheckHealthCommand message) [0x00016] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:98 
+  at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandModel commandModel) [0x000f6] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:95 
+  at (wrapper dynamic-method) System.Object.CallSite.Target(System.Runtime.CompilerServices.Closure,System.Runtime.CompilerServices.CallSite,NzbDrone.Core.Messaging.Commands.CommandExecutor,object,NzbDrone.Core.Messaging.Commands.CommandModel)
+  at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2] (System.Runtime.CompilerServices.CallSite site, T0 arg0, T1 arg1, T2 arg2) [0x00110] in <4bd4dbd20d094f3f8734f677798e9741>:0 
+  at (wrapper dynamic-method) System.Object.CallSite.Target(System.Runtime.CompilerServices.Closure,System.Runtime.CompilerServices.CallSite,NzbDrone.Core.Messaging.Commands.CommandExecutor,object,NzbDrone.Core.Messaging.Commands.CommandModel)
+  at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands () [0x00027] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:41 
+
+18-5-14 03:47:30.1|Info|SceneMappingService|Updating Scene mappings
+18-5-14 03:47:50.1|Error|SceneMappingService|Failed to Update Scene Mappings
+
+[v2.0.0.5163] System.Net.WebException: DNS Name Resolution Failure: 'thexem.de'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0013d] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:79 
+  at NzbDrone.Common.Http.Dispatchers.FallbackHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000b5] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\FallbackHttpDispatcher.cs:53 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request) [0x0007e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:119 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:55 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Common.Http.HttpClient.Get[T] (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:225 
+  at NzbDrone.Core.DataAugmentation.Xem.XemProxy.GetSceneTvdbNames () [0x0003c] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\DataAugmentation\Xem\XemProxy.cs:82 
+  at NzbDrone.Core.DataAugmentation.Xem.XemService.GetSceneMappings () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\DataAugmentation\Xem\XemService.cs:205 
+  at NzbDrone.Core.DataAugmentation.Scene.SceneMappingService.UpdateMappings () [0x00028] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\DataAugmentation\Scene\SceneMappingService.cs:152 
+
+18-5-14 03:48:37.1|Error|SceneMappingService|Failed to Update Scene Mappings
+
+[v2.0.0.5163] System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://services.sonarr.tv/v1/scenemapping' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <2740d7148e184840ad6689888c90a56d>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00058] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x0000e] in <2740d7148e184840ad6689888c90a56d>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f6] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:63 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0019e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:91 
+  at NzbDrone.Common.Http.Dispatchers.FallbackHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000b5] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\FallbackHttpDispatcher.cs:53 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request) [0x0007e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:119 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:55 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Common.Http.HttpClient.Get[T] (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:225 
+  at NzbDrone.Core.DataAugmentation.Scene.SceneMappingProxy.Fetch () [0x0001b] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\DataAugmentation\Scene\SceneMappingProxy.cs:29 
+  at NzbDrone.Core.DataAugmentation.Scene.ServicesProvider.GetSceneMappings () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\DataAugmentation\Scene\ServicesProvider.cs:16 
+  at NzbDrone.Core.DataAugmentation.Scene.SceneMappingService.UpdateMappings () [0x00028] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\DataAugmentation\Scene\SceneMappingService.cs:152 
+
+18-5-14 04:02:00.6|Info|RssSyncService|Starting RSS Sync
+18-5-14 04:02:00.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 04:02:00.7|Info|DownloadDecisionMaker|No results found
+18-5-14 04:02:00.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 04:17:01.1|Info|RssSyncService|Starting RSS Sync
+18-5-14 04:17:01.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 04:17:01.1|Info|DownloadDecisionMaker|No results found
+18-5-14 04:17:01.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 04:32:01.6|Info|RssSyncService|Starting RSS Sync
+18-5-14 04:32:01.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 04:32:01.7|Info|DownloadDecisionMaker|No results found
+18-5-14 04:32:01.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 04:47:03.4|Info|RssSyncService|Starting RSS Sync
+18-5-14 04:47:03.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 04:47:03.5|Info|DownloadDecisionMaker|No results found
+18-5-14 04:47:03.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 05:02:04.1|Info|RssSyncService|Starting RSS Sync
+18-5-14 05:02:04.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 05:02:04.1|Info|DownloadDecisionMaker|No results found
+18-5-14 05:02:04.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 05:17:04.7|Info|RssSyncService|Starting RSS Sync
+18-5-14 05:17:04.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 05:17:04.8|Info|DownloadDecisionMaker|No results found
+18-5-14 05:17:04.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 05:32:05.4|Info|RssSyncService|Starting RSS Sync
+18-5-14 05:32:05.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 05:32:05.4|Info|DownloadDecisionMaker|No results found
+18-5-14 05:32:05.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 05:47:05.9|Info|RssSyncService|Starting RSS Sync
+18-5-14 05:47:05.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 05:47:05.9|Info|DownloadDecisionMaker|No results found
+18-5-14 05:47:05.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 06:02:07.0|Info|RssSyncService|Starting RSS Sync
+18-5-14 06:02:07.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 06:02:07.0|Info|DownloadDecisionMaker|No results found
+18-5-14 06:02:07.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 06:17:07.5|Info|RssSyncService|Starting RSS Sync
+18-5-14 06:17:07.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 06:17:07.6|Info|DownloadDecisionMaker|No results found
+18-5-14 06:17:07.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 06:32:07.9|Info|RssSyncService|Starting RSS Sync
+18-5-14 06:32:08.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 06:32:08.0|Info|DownloadDecisionMaker|No results found
+18-5-14 06:32:08.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 06:47:09.6|Info|RssSyncService|Starting RSS Sync
+18-5-14 06:47:09.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 06:47:09.6|Info|DownloadDecisionMaker|No results found
+18-5-14 06:47:09.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 06:49:09.6|Info|SceneMappingService|Updating Scene mappings
+18-5-14 07:02:10.1|Info|RssSyncService|Starting RSS Sync
+18-5-14 07:02:10.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 07:02:10.1|Info|DownloadDecisionMaker|No results found
+18-5-14 07:02:10.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 07:17:10.2|Info|RssSyncService|Starting RSS Sync
+18-5-14 07:17:10.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 07:17:10.3|Info|DownloadDecisionMaker|No results found
+18-5-14 07:17:10.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 07:32:10.6|Info|RssSyncService|Starting RSS Sync
+18-5-14 07:32:10.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 07:32:10.7|Info|DownloadDecisionMaker|No results found
+18-5-14 07:32:10.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 07:47:11.9|Info|RssSyncService|Starting RSS Sync
+18-5-14 07:47:11.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 07:47:11.9|Info|DownloadDecisionMaker|No results found
+18-5-14 07:47:11.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 08:02:12.3|Info|RssSyncService|Starting RSS Sync
+18-5-14 08:02:12.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 08:02:12.3|Info|DownloadDecisionMaker|No results found
+18-5-14 08:02:12.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 08:17:12.9|Info|RssSyncService|Starting RSS Sync
+18-5-14 08:17:12.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 08:17:12.9|Info|DownloadDecisionMaker|No results found
+18-5-14 08:17:12.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 08:32:13.1|Info|RssSyncService|Starting RSS Sync
+18-5-14 08:32:13.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 08:32:13.2|Info|DownloadDecisionMaker|No results found
+18-5-14 08:32:13.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 08:47:13.7|Info|RssSyncService|Starting RSS Sync
+18-5-14 08:47:13.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 08:47:13.7|Info|DownloadDecisionMaker|No results found
+18-5-14 08:47:13.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 09:02:14.1|Info|RssSyncService|Starting RSS Sync
+18-5-14 09:02:14.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 09:02:14.1|Info|DownloadDecisionMaker|No results found
+18-5-14 09:02:14.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 09:17:15.1|Info|RssSyncService|Starting RSS Sync
+18-5-14 09:17:15.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 09:17:15.1|Info|DownloadDecisionMaker|No results found
+18-5-14 09:17:15.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 09:32:15.5|Info|RssSyncService|Starting RSS Sync
+18-5-14 09:32:15.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 09:32:15.5|Info|DownloadDecisionMaker|No results found
+18-5-14 09:32:15.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 09:47:16.3|Info|RssSyncService|Starting RSS Sync
+18-5-14 09:47:16.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 09:47:16.3|Info|DownloadDecisionMaker|No results found
+18-5-14 09:47:16.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 09:49:16.4|Info|SceneMappingService|Updating Scene mappings
+18-5-14 09:50:18.3|Warn|Torznab|Unable to connect to indexer
+
+[v2.0.0.5163] System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://localhost:9117/api/v2.0/indexers/eztv/results/torznab/api?t=caps&apikey=(removed) ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <2740d7148e184840ad6689888c90a56d>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00058] in <2740d7148e184840ad6689888c90a56d>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x0000e] in <2740d7148e184840ad6689888c90a56d>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f6] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:63 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0019e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:91 
+  at NzbDrone.Common.Http.Dispatchers.FallbackHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000b5] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\Dispatchers\FallbackHttpDispatcher.cs:53 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request) [0x0007e] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:119 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:55 
+  at NzbDrone.Common.Http.HttpClient.Get (NzbDrone.Common.Http.HttpRequest request) [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Http\HttpClient.cs:220 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x0009a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:62 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider+<>c__DisplayClass4_0.<GetCapabilities>b__0 () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Common.Cache.Cached`1[T].Get (System.String key, System.Func`1[TResult] function, System.Nullable`1[T] lifeTime) [0x0006a] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Common\Cache\Cached.cs:81 
+  at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities (NzbDrone.Core.Indexers.Newznab.NewznabSettings indexerSettings) [0x00020] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Newznab\NewznabCapabilitiesProvider.cs:35 
+  at NzbDrone.Core.Indexers.Torznab.Torznab.get_PageSize () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:22 
+  at NzbDrone.Core.Indexers.Torznab.Torznab.GetRequestGenerator () [0x00000] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\Torznab\Torznab.cs:26 
+  at NzbDrone.Core.Indexers.HttpIndexerBase`1[TSettings].TestConnection () [0x00007] in M:\BuildAgent\work\b69c1fe19bfc2c38\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:315 
+
+18-5-14 09:50:18.5|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+18-5-14 10:02:17.2|Info|RssSyncService|Starting RSS Sync
+18-5-14 10:02:17.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+18-5-14 10:02:17.2|Info|DownloadDecisionMaker|No results found
+18-5-14 10:02:17.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+18-5-14 10:17:18.0|Info|RssSyncService|Starting RSS Sync
+18-5-14 10:17:22.1|Info|DownloadDecisionMaker|Processing 45 releases
+18-5-14 10:17:22.2|Info|RssSyncService|RSS Sync Completed. Reports found: 45, Reports grabbed: 0
+18-5-14 10:18:57.9|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5163
+18-5-14 10:18:58.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+18-5-14 10:18:58.7|Info|Router|Application mode: Interactive
+18-5-14 10:18:58.9|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+18-5-14 10:18:59.2|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+18-5-14 10:18:59.4|Info|OwinHostController|Listening on the following URLs:
+18-5-14 10:18:59.4|Info|OwinHostController|  http://*:8989/
+18-5-14 10:18:59.6|Info|NancyBootstrapper|Starting Web Server

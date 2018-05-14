@@ -1,0 +1,1 @@
+{"StartTimeUtc":"2018-05-14T12:13:46.3884634Z","EndTimeUtc":"2018-05-14T12:13:46.3891326Z","Status":"Completed","Name":"Cloud & Folder Sync","Key":"ServerSync","Id":"9c4589c712196c27894f665a58cc42e3"}
