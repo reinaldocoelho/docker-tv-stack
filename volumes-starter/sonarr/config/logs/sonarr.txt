@@ -653,3 +653,79 @@
 18-5-14 10:18:59.4|Info|OwinHostController|Listening on the following URLs:
 18-5-14 10:18:59.4|Info|OwinHostController|  http://*:8989/
 18-5-14 10:18:59.6|Info|NancyBootstrapper|Starting Web Server
+18-5-14 13:49:48.5|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5163
+18-5-14 13:49:49.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+18-5-14 13:49:49.4|Info|Router|Application mode: Interactive
+18-5-14 13:49:49.7|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+18-5-14 13:49:50.2|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+18-5-14 13:49:50.4|Info|OwinHostController|Listening on the following URLs:
+18-5-14 13:49:50.4|Info|OwinHostController|  http://*:8989/
+18-5-14 13:49:50.7|Info|NancyBootstrapper|Starting Web Server
+18-5-14 13:50:22.0|Info|SceneMappingService|Updating Scene mappings
+18-5-14 13:50:22.1|Info|RssSyncService|Starting RSS Sync
+18-5-14 13:50:27.0|Warn|Torznab|Indexer KickAssTorrent rss sync didn't cover the period between 5/14/2018 12:19:19 PM and 5/14/2018 4:10:26 PM UTC. Search may be required.
+18-5-14 13:50:28.1|Warn|Torznab|Indexer The Pirate Bay rss sync didn't cover the period between 5/14/2018 1:16:22 PM and 5/14/2018 4:36:28 PM UTC. Search may be required.
+18-5-14 13:50:28.1|Info|DownloadDecisionMaker|Processing 43 releases
+18-5-14 13:50:28.3|Info|RssSyncService|RSS Sync Completed. Reports found: 43, Reports grabbed: 0
+18-5-14 14:05:52.6|Info|RssSyncService|Starting RSS Sync
+18-5-14 14:05:56.8|Info|DownloadDecisionMaker|Processing 45 releases
+18-5-14 14:05:57.1|Info|RssSyncService|RSS Sync Completed. Reports found: 45, Reports grabbed: 0
+18-5-14 14:21:23.0|Info|RssSyncService|Starting RSS Sync
+18-5-14 14:21:25.1|Warn|Torznab|Indexer The Pirate Bay rss sync didn't cover the period between 5/14/2018 5:00:54 PM and 5/14/2018 5:21:25 PM UTC. Search may be required.
+18-5-14 14:21:27.3|Info|DownloadDecisionMaker|Processing 49 releases
+18-5-14 14:21:27.5|Info|RssSyncService|RSS Sync Completed. Reports found: 49, Reports grabbed: 0
+18-5-14 14:36:54.8|Info|RssSyncService|Starting RSS Sync
+18-5-14 14:36:59.1|Info|DownloadDecisionMaker|Processing 39 releases
+18-5-14 14:36:59.6|Info|RssSyncService|RSS Sync Completed. Reports found: 39, Reports grabbed: 0
+18-5-14 14:52:25.5|Info|RssSyncService|Starting RSS Sync
+18-5-14 14:52:29.6|Info|DownloadDecisionMaker|Processing 36 releases
+18-5-14 14:52:29.7|Info|RssSyncService|RSS Sync Completed. Reports found: 36, Reports grabbed: 0
+18-5-14 15:07:57.2|Info|RssSyncService|Starting RSS Sync
+18-5-14 15:08:02.6|Info|DownloadDecisionMaker|Processing 33 releases
+18-5-14 15:08:03.0|Info|RssSyncService|RSS Sync Completed. Reports found: 33, Reports grabbed: 0
+18-5-14 15:23:28.9|Info|RssSyncService|Starting RSS Sync
+18-5-14 15:23:33.9|Info|DownloadDecisionMaker|Processing 30 releases
+18-5-14 15:23:34.2|Info|RssSyncService|RSS Sync Completed. Reports found: 30, Reports grabbed: 0
+18-5-14 15:38:59.3|Info|RssSyncService|Starting RSS Sync
+18-5-14 15:39:03.4|Info|DownloadDecisionMaker|Processing 26 releases
+18-5-14 15:39:03.6|Info|RssSyncService|RSS Sync Completed. Reports found: 26, Reports grabbed: 0
+18-5-14 15:54:30.2|Info|RssSyncService|Starting RSS Sync
+18-5-14 15:54:36.0|Info|DownloadDecisionMaker|Processing 33 releases
+18-5-14 15:54:36.1|Info|RssSyncService|RSS Sync Completed. Reports found: 33, Reports grabbed: 0
+18-5-14 16:10:04.2|Info|RssSyncService|Starting RSS Sync
+18-5-14 16:10:06.4|Warn|Torznab|Indexer The Pirate Bay rss sync didn't cover the period between 5/14/2018 6:52:34 PM and 5/14/2018 6:54:06 PM UTC. Search may be required.
+18-5-14 16:10:08.3|Info|DownloadDecisionMaker|Processing 26 releases
+18-5-14 16:10:08.5|Info|RssSyncService|RSS Sync Completed. Reports found: 26, Reports grabbed: 0
+18-5-14 16:25:36.9|Info|RssSyncService|Starting RSS Sync
+18-5-14 16:25:41.0|Info|DownloadDecisionMaker|Processing 25 releases
+18-5-14 16:25:41.1|Info|RssSyncService|RSS Sync Completed. Reports found: 25, Reports grabbed: 0
+18-5-14 23:25:00.3|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.5163
+18-5-14 23:25:01.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+18-5-14 23:25:01.3|Info|Router|Application mode: Interactive
+18-5-14 23:25:01.5|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+18-5-14 23:25:01.9|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+18-5-14 23:25:02.2|Info|OwinHostController|Listening on the following URLs:
+18-5-14 23:25:02.2|Info|OwinHostController|  http://*:8989/
+18-5-14 23:25:02.3|Info|NancyBootstrapper|Starting Web Server
+18-5-14 23:25:33.8|Info|SceneMappingService|Updating Scene mappings
+18-5-14 23:25:34.2|Info|HousekeepingService|Running housecleaning tasks
+18-5-14 23:25:34.3|Info|Database|Vacuuming Log database
+18-5-14 23:25:34.3|Info|Database|Log database compressed
+18-5-14 23:25:34.3|Info|Database|Vacuuming Main database
+18-5-14 23:25:34.5|Info|Database|Main database compressed
+18-5-14 23:25:34.5|Info|RssSyncService|Starting RSS Sync
+18-5-14 23:25:39.1|Warn|Torznab|Indexer The Pirate Bay rss sync didn't cover the period between 5/14/2018 7:25:40 PM and 5/15/2018 2:15:39 AM UTC. Search may be required.
+18-5-14 23:25:40.2|Warn|Torznab|Indexer KickAssTorrent rss sync didn't cover the period between 5/14/2018 6:25:39 PM and 5/15/2018 12:25:40 AM UTC. Search may be required.
+18-5-14 23:25:40.3|Info|DownloadDecisionMaker|Processing 53 releases
+18-5-14 23:25:40.5|Info|RssSyncService|RSS Sync Completed. Reports found: 53, Reports grabbed: 0
+18-5-14 23:36:12.7|Info|AddSeriesService|Adding Series [77129][Dungeons & Dragons] Path: [/downloads/Dungeons & Dragons]
+18-5-14 23:36:12.7|Info|RefreshSeriesService|Updating Info for Dungeons & Dragons
+18-5-14 23:36:12.8|Warn|MediaCoverMapper|File /config/MediaCover/1/poster.jpg not found
+18-5-14 23:36:13.5|Info|RefreshEpisodeService|Starting episode info refresh for: [77129][Dungeons & Dragons]
+18-5-14 23:36:13.6|Info|RefreshEpisodeService|Finished episode refresh for series: [77129][Dungeons & Dragons].
+18-5-14 23:36:13.6|Warn|DiskScanService|Series' root folder (/downloads) is empty.
+18-5-14 23:36:13.6|Info|SeriesScannedHandler|[Dungeons & Dragons] was recently added, performing post-add actions
+18-5-14 23:36:14.3|Info|MediaCoverService|Downloading Fanart for [77129][Dungeons & Dragons] http://thetvdb.com/banners/fanart/original/77129-3.jpg
+18-5-14 23:36:15.7|Info|MediaCoverService|Downloading Banner for [77129][Dungeons & Dragons] http://thetvdb.com/banners/graphical/77129-g2.jpg
+18-5-14 23:36:15.8|Info|MediaCoverService|Downloading Poster for [77129][Dungeons & Dragons] http://thetvdb.com/banners/posters/77129-6.jpg
+18-5-14 23:36:16.3|Info|MetadataService|Series folder does not exist, skipping metadata creation

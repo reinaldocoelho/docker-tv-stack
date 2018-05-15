@@ -58,8 +58,26 @@ services:
         ports:
           - "8989:8989"
         volumes:
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/sonnar/config:/config
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/sonnar/tv:/tv
+          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/sonarr/config:/config
+          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/sonarr/tv:/tv
+          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/downloads:/downloads
+        environment:
+          PUID: "1001" # The UID to run emby as (default: 2)
+          PGID: "1001" # The GID to run emby as (default 2)
+          TZ: "America/Sao_Paulo" # Timezone SP/Brazil
+        depends_on:
+            - qbittorrent.server
+            - jackett.server
+    # https://hub.docker.com/r/linuxserver/radarr/
+    radarr.server:
+        image: "linuxserver/radarr"
+        networks:
+          - backend
+        ports:
+          - "7878:7878"
+        volumes:
+          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/radarr/config:/config
+          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/radarr/movies:/movies
           - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/downloads:/downloads
         environment:
           PUID: "1001" # The UID to run emby as (default: 2)
@@ -69,8 +87,6 @@ services:
             - qbittorrent.server
             - jackett.server
 
-          # TODO: Create for use "radarr" application too.  
-
 networks:
   backend:
 
@@ -79,7 +95,9 @@ networks:
 ## volumes:
   ##emby-config: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/emby/config
   ##emby-share1: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/downloads
-  ##sonarr-config: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/sonnar/config
-  ##sonarr-tv: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/sonnar/tv
+  ##sonarr-config: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/sonarr/config
+  ##sonarr-tv: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/sonarr/tv
+  ##radarr-config: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/radarr/config
+  ##radarr-movies: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/radarr/movies
   ##qbittorrent-config: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/qbittorrent/config
   ##jackett-config: ##D:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/jackett/config
