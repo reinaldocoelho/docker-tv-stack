@@ -89,15 +89,3 @@ services:
 
 networks:
   backend:
-
-# ## For create this named-volumes (S.O. LINUX), use:
-# ### docker volume create --opt device=/FOLDER/SHARE1 emby-share1
-## volumes:
-  ##emby-config: ## ./volumes/emby/config
-  ##emby-share1: ## ./volumes/downloads
-  ##sonarr-config: ## ./volumes/sonarr/config
-  ##sonarr-tv: ## ./volumes/sonarr/tv
-  ##radarr-config: ## ./volumes/radarr/config
-  ##radarr-movies: ## ./volumes/radarr/movies
-  ##qbittorrent-config: ## ./volumes/qbittorrent/config
-  ##jackett-config: ##./volumes/jackett/config
