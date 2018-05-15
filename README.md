@@ -22,3 +22,9 @@ All need share the same Download volume to access the same videos and work on it
 
 To use this stack, you need to edit docker-compose.yml and reconfigure all Volumes to your folder destinations.
 The start volume configurations is on ./volumes folder with initial basic configuration. If you need, you can move this mount structure and mount where you want.
+
+
+
+## To Subtitles
+
+You need to create an account on some subtitle server like: https://www.opensubtitles.org/pt

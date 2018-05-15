@@ -8,8 +8,8 @@ services:
         ports:
           - "9117:9117"
         volumes:
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/jackett/config:/config
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/downloads:/downloads
+          - ./volumes/jackett/config:/config
+          - ./volumes/downloads:/downloads
         environment:
           PUID: "1001" # The UID to run emby as (default: 2)
           PGID: "1001" # The GID to run emby as (default 2)
@@ -24,8 +24,8 @@ services:
           - "6881:6881/udp"
           - "8088:8088"
         volumes:
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/qbittorrent/config:/config
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/downloads:/downloads
+          - ./volumes/qbittorrent/config:/config
+          - ./volumes/downloads:/downloads
         environment:
           PUID: "1001" # The UID to run emby as (default: 2)
           PGID: "1001" # The GID to run emby as (default 2)
@@ -41,8 +41,8 @@ services:
           - "8920:8920" # To expose the HTTPS port
           - "8096:8096" # To expose the HTTP port
         volumes:
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/emby/config:/config # This is mandatory
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/downloads:/mnt/share1 # To mount a first share
+          - ./volumes/emby/config:/config # This is mandatory
+          - ./volumes/downloads:/mnt/share1 # To mount a first share
           # - emby-share2:/mnt/share2 # To mount a second share
         environment:
           UID: "1000" # The UID to run emby as (default: 2)
@@ -58,9 +58,9 @@ services:
         ports:
           - "8989:8989"
         volumes:
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/sonarr/config:/config
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/sonarr/tv:/tv
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/downloads:/downloads
+          - ./volumes/sonarr/config:/config
+          - ./volumes/sonarr/tv:/tv
+          - ./volumes/downloads:/downloads
         environment:
           PUID: "1001" # The UID to run emby as (default: 2)
           PGID: "1001" # The GID to run emby as (default 2)
@@ -76,9 +76,9 @@ services:
         ports:
           - "7878:7878"
         volumes:
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/radarr/config:/config
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/radarr/movies:/movies
-          - d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/downloads:/downloads
+          - ./volumes/radarr/config:/config
+          - ./volumes/radarr/movies:/movies
+          - ./volumes/downloads:/downloads
         environment:
           PUID: "1001" # The UID to run emby as (default: 2)
           PGID: "1001" # The GID to run emby as (default 2)
@@ -93,11 +93,11 @@ networks:
 # ## For create this named-volumes (S.O. LINUX), use:
 # ### docker volume create --opt device=/FOLDER/SHARE1 emby-share1
 ## volumes:
-  ##emby-config: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/emby/config
-  ##emby-share1: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/downloads
-  ##sonarr-config: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/sonarr/config
-  ##sonarr-tv: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/sonarr/tv
-  ##radarr-config: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/radarr/config
-  ##radarr-movies: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/radarr/movies
-  ##qbittorrent-config: ## d:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/qbittorrent/config
-  ##jackett-config: ##D:/reinaldo/Documents/GitHub/docker-tv-stack/volumes/jackett/config
+  ##emby-config: ## ./volumes/emby/config
+  ##emby-share1: ## ./volumes/downloads
+  ##sonarr-config: ## ./volumes/sonarr/config
+  ##sonarr-tv: ## ./volumes/sonarr/tv
+  ##radarr-config: ## ./volumes/radarr/config
+  ##radarr-movies: ## ./volumes/radarr/movies
+  ##qbittorrent-config: ## ./volumes/qbittorrent/config
+  ##jackett-config: ##./volumes/jackett/config
